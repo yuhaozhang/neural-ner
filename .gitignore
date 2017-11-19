@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+*.env
+*.tmp
+
+*.pkl
+
+dataset/conll_*
+dataset/vocab*
+dataset/glove
+saved_models/
