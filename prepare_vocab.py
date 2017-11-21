@@ -37,16 +37,20 @@ def main():
     # output files
     helper.ensure_dir(args.vocab_dir)
     vocab_file = args.vocab_dir + '/vocab.pkl'
+    char_vocab_file = args.vocab_dir + '/vocab_char.pkl'
     emb_file = args.vocab_dir + '/embedding.npy'
 
     # load files
     print("loading files...")
-    train_tokens = load_tokens(train_file)
-    dev_tokens = load_tokens(dev_file)
-    test_tokens = load_tokens(test_file)
+    train_tokens, train_chars = load_tokens(train_file)
+    dev_tokens, dev_chars = load_tokens(dev_file)
+    test_tokens, test_chars = load_tokens(test_file)
     if args.lower:
         train_tokens, dev_tokens, test_tokens = [[t.lower() for t in tokens] for tokens in\
                 (train_tokens, dev_tokens, test_tokens)]
+        if train_chars:
+            train_chars, dev_chars, test_chars = [[c.lower() for c in chars] for chars in\
+                (train_chars, dev_chars, test_chars)]
 
     # load glove
     print("loading glove...")
@@ -59,6 +63,16 @@ def main():
     else:
         all_tokens = train_tokens
     v = build_vocab(all_tokens, glove_vocab, args.min_freq)
+    
+    if train_chars:
+        print("building vocab for chars...")
+        all_chars = train_chars + dev_chars + test_chars
+        char_counter = Counter(all_chars)
+        #char_vocab = constant.VOCAB_PREFIX + sorted(char_counter.keys(), key=char_counter.get, reverse=True)
+        char_vocab = constant.VOCAB_PREFIX + sorted(list(char_counter.keys()))
+        print("vocab built with {} chars.".format(len(char_vocab)))
+    else:
+        char_vocab = None
 
     print("calculating oov...")
     datasets = {'train': train_tokens, 'dev': dev_tokens, 'test': test_tokens}
@@ -77,6 +91,9 @@ def main():
     print("dumping to files...")
     with open(vocab_file, 'wb') as outfile:
         pickle.dump(v, outfile)
+    if char_vocab:
+        with open(char_vocab_file, 'wb') as outfile:
+            pickle.dump(char_vocab, outfile)
     np.save(emb_file, embedding)
     print("all done.")
 
@@ -88,11 +105,15 @@ def load_tokens(filename):
     with open(filename) as infile:
         data = json.load(infile)
         tokens = []
+        chars = []
         for d in data:
             tokens += d['token']
+            if 'char' in d:
+                chars += sum(d['char'], [])
         tokens = list(map(vocab.normalize_token, tokens))
-    print("{} tokens from {} examples loaded from {}.".format(len(tokens), len(data), filename))
-    return tokens
+    print("{} tokens, {} chars from {} examples loaded from {}.".format(len(tokens), len(chars), len(data), filename))
+    chars = chars if len(chars)>0 else None
+    return tokens, chars
 
 def build_vocab(tokens, glove_vocab, min_freq):
     """ build vocab from tokens and glove words. """

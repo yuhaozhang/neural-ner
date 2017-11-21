@@ -5,6 +5,7 @@ Load the column NER data, and process into json.
 import os
 import json
 import argparse
+from pprint import pprint
 
 NUM_FIELD = 2
 
@@ -27,10 +28,24 @@ def main():
         filename = args.data_dir + '/' + pattern.format(f)
         data = load_column_data(filename)
         json_data = [{'token': tk, 'tag': tg} for tk, tg in data]
+
+        # featurize
+        char_vocab = set()
+        for d in json_data:
+            chars = get_chars(d['token'])
+            d['char'] = chars
+            char_vocab.update(sum(chars, []))
+
+        # save to file
         out = args.target_dir + '/' + target_pattern.format(f)
         with open(out, 'w') as outfile:
             json.dump(json_data, outfile)
         print("Write to json file {}".format(out))
+        print("{} unique chars found.".format(len(char_vocab)))
+
+def get_chars(words):
+    chars = [list(w) for w in words]
+    return chars
 
 def load_column_data(filename):
     """
