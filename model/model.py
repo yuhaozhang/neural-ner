@@ -6,6 +6,7 @@ from torch import nn
 import torch.nn.init as init
 from torch.autograd import Variable
 
+from model import layers
 from utils import constant, torch_utils
 
 class BLSTM_CRF(nn.Module):
@@ -17,8 +18,9 @@ class BLSTM_CRF(nn.Module):
         self.drop = nn.Dropout(opt['dropout'])
         # word embedding matrix
         self.emb = nn.Embedding(opt['vocab_size'], opt['emb_dim'], padding_idx=0)
+        self.char_layer = layers.CharLayer(opt, type='rnn')
 
-        input_size = opt['emb_dim']
+        input_size = opt['emb_dim'] + opt['char_hidden_dim']*2
         self.lstm = nn.LSTM(input_size, opt['hidden_dim'], opt['num_layers'], batch_first=True, \
                 dropout=opt['dropout'], bidirectional=True)
         self.linear = nn.Linear(opt['hidden_dim']*2, opt['num_class'])
@@ -45,10 +47,14 @@ class BLSTM_CRF(nn.Module):
         init.xavier_uniform(self.linear.weight, gain=1)
 
     def forward(self, inputs):
-        words, masks = inputs
+        words, masks, chars = inputs
         seq_lens = list(masks.data.eq(constant.PAD_ID).long().sum(1).squeeze())
         batch_size = words.size()[0]
         rnn_inputs = self.drop(self.emb(words))
+        
+        # get character hidden
+        char_inputs = self.char_layer(chars)
+        rnn_inputs = torch.cat([rnn_inputs, char_inputs], dim=2)
 
         h0, c0 = zero_state(batch_size, self.opt['hidden_dim'], self.opt['num_layers'], True, self.use_cuda)
         # pack sequence

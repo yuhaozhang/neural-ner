@@ -33,6 +33,9 @@ parser.set_defaults(lower=False)
 parser.add_argument('--crf', action='store_true')
 parser.add_argument('--scheme', type=str, default='iob', help='Either iob or iobes.')
 
+parser.add_argument('--char_emb_dim', type=int, default=20, help='Char embedding dimension.')
+parser.add_argument('--char_hidden_dim', type=int, default=50, help='Char layer hidden dimension.')
+
 parser.add_argument('--lr', type=float, default=1.0, help='Applies to SGD and Adagrad.')
 parser.add_argument('--lr_decay', type=float, default=0.9)
 parser.add_argument('--optim', type=str, default='sgd', help='sgd, adagrad, adam or adamax.')
@@ -76,10 +79,14 @@ emb_matrix = np.load(emb_file)
 assert emb_matrix.shape[0] == vocab.size
 assert emb_matrix.shape[1] == opt['emb_dim']
 
+char_vocab_file = opt['vocab_dir'] + '/vocab_char.pkl'
+char_vocab = Vocab(char_vocab_file, load=True)
+opt['char_vocab_size'] = char_vocab.size
+
 # load data
 print("Loading data from {} with batch size {}...".format(opt['data_dir'], opt['batch_size']))
-train_batch = DataLoader(opt['data_dir'] + '/train.json', opt['batch_size'], opt, vocab, evaluation=False)
-dev_batch = DataLoader(opt['data_dir'] + '/testa.json', opt['batch_size'], opt, vocab, evaluation=True)
+train_batch = DataLoader(opt['data_dir'] + '/train.json', opt['batch_size'], opt, vocab, char_vocab, evaluation=False)
+dev_batch = DataLoader(opt['data_dir'] + '/testa.json', opt['batch_size'], opt, vocab, char_vocab, evaluation=True)
 
 model_id = opt['id'] if len(opt['id']) > 1 else '0' + opt['id']
 model_save_dir = opt['save_dir'] + '/' + model_id
