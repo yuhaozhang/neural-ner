@@ -1,3 +1,5 @@
+-DOCSTART-	O
+
 EU	S-ORG
 rejects	O
 German	S-MISC
@@ -487,6 +489,8 @@ overall	O
 imports	O
 .	O
 
+-DOCSTART-	O
+
 Rare	O
 Hendrix	S-PER
 song	O
@@ -683,6 +687,8 @@ in	O
 aged	O
 27	O
 .	O
+
+-DOCSTART-	O
 
 China	S-LOC
 says	O
@@ -932,6 +938,8 @@ President	O
 Lien	S-PER
 .	O
 
+-DOCSTART-	O
+
 China	S-LOC
 says	O
 time	O
@@ -1011,6 +1019,8 @@ late	O
 on	O
 Wednesday	O
 .	O
+
+-DOCSTART-	O
 
 German	S-MISC
 July	O
@@ -1247,6 +1257,8 @@ from	O
 643	O
 .	O
 
+-DOCSTART-	O
+
 GREEK	S-MISC
 SOCIALISTS	O
 GIVE	O
@@ -1322,6 +1334,8 @@ Athens	B-ORG
 Newsroom	E-ORG
 +301	O
 3311812-4	O
+
+-DOCSTART-	O
 
 BayerVB	S-ORG
 sets	O
@@ -1454,6 +1468,8 @@ Newsroom	E-ORG
 171	O
 542	O
 7658	O
+
+-DOCSTART-	O
 
 Venantius	S-ORG
 sets	O
@@ -1599,6 +1615,8 @@ Newsroom	E-ORG
 542	O
 8863	O
 
+-DOCSTART-	O
+
 Port	O
 conditions	O
 update	O
@@ -1633,6 +1651,8 @@ presently	O
 24	O
 hours	O
 .	O
+
+-DOCSTART-	O
 
 Israel	S-LOC
 plays	O
@@ -2140,6 +2160,8 @@ and	O
 Moscow	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Polish	S-MISC
 diplomat	O
 denies	O
@@ -2295,6 +2317,8 @@ working	O
 in	O
 Libya	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Two	O
 Iranian	S-MISC
@@ -2638,6 +2662,8 @@ Baghdad	S-LOC
 troops	O
 .	O
 
+-DOCSTART-	O
+
 Saudi	S-MISC
 riyal	O
 rates	O
@@ -2757,6 +2783,8 @@ six	O
 5-7/8	O
 percent	O
 .	O
+
+-DOCSTART-	O
 
 Israel	S-LOC
 approves	O
@@ -2972,6 +3000,8 @@ until	O
 Monday	O
 .	O
 
+-DOCSTART-	O
+
 Arafat	S-PER
 to	O
 meet	O
@@ -3115,6 +3145,8 @@ conduct	O
 peace	O
 talks	O
 .	O
+
+-DOCSTART-	O
 
 Afghan	S-MISC
 UAE	S-LOC
@@ -3515,6 +3547,8 @@ on	O
 Sunday	O
 .	O
 
+-DOCSTART-	O
+
 Iraq	S-LOC
 's	O
 Saddam	S-PER
@@ -3732,6 +3766,8 @@ more	O
 years	O
 .	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -3837,6 +3873,8 @@ in	O
 the	O
 Gulf	S-LOC
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -4002,6 +4040,8 @@ Sunday	O
 elections	O
 .	O
 
+-DOCSTART-	O
+
 CME	S-ORG
 live	O
 and	O
@@ -4118,6 +4158,8 @@ week	O
 they	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Kindercare	O
 says	O
@@ -4245,6 +4287,8 @@ earnings	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 RESEARCH	O
 ALERT	O
 -	O
@@ -4344,6 +4388,8 @@ Street	I-ORG
 bureau	E-ORG
 ,	O
 212-859-1736	O
+
+-DOCSTART-	O
 
 Gateway	B-ORG
 Data	I-ORG
@@ -4491,6 +4537,8 @@ Equity	O
 1,461	O
 )	O
 
+-DOCSTART-	O
+
 Greek	S-MISC
 socialists	O
 give	O
@@ -4566,6 +4614,8 @@ Athens	B-ORG
 Newsroom	E-ORG
 +301	O
 3311812-4	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -4724,6 +4774,8 @@ Newsroom	E-ORG
 53	O
 81	O
 
+-DOCSTART-	O
+
 Well	O
 repairs	O
 to	O
@@ -4843,6 +4895,8 @@ newsroom	O
 42	O
 50	O
 41	O
+
+-DOCSTART-	O
 
 Finnish	S-MISC
 April	O
@@ -5040,6 +5094,8 @@ Newsroom	E-ORG
 50	O
 245	O
 
+-DOCSTART-	O
+
 Dutch	S-MISC
 state	O
 raises	O
@@ -5130,6 +5186,8 @@ newsroom	O
 20	O
 504	O
 5000	O
+
+-DOCSTART-	O
 
 German	S-MISC
 farm	O
@@ -5559,6 +5617,8 @@ the	O
 disease	O
 .	O
 
+-DOCSTART-	O
+
 GOLF	O
 -	O
 SCORES	O
@@ -5803,6 +5863,8 @@ Okuda	E-PER
 Japan	S-LOC
 )	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 GLORIA	B-ORG
@@ -5902,6 +5964,8 @@ Cup	E-MISC
 .	O
 
 REUTER	S-PER
+
+-DOCSTART-	O
 
 HORSE	O
 RACING	O
@@ -6202,6 +6266,8 @@ quicken	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 HORSE	O
 RACING	O
 -	O
@@ -6324,6 +6390,8 @@ $	O
 112,200	O
 )	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 RESULTS	O
@@ -6430,6 +6498,8 @@ Taiwan	S-LOC
 6-4	O
 
 6-2	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -6540,6 +6610,8 @@ Morocco	S-LOC
 )	O
 
 7-5	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -6749,6 +6821,8 @@ director	O
 of	O
 football	O
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -6975,6 +7049,8 @@ v	O
 Lancashire	S-ORG
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -7177,6 +7253,8 @@ Younis	E-PER
 Mohammad	B-PER
 Akam	E-PER
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FERGUSON	S-PER
@@ -7347,6 +7425,8 @@ senior	O
 squad	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -7389,6 +7469,8 @@ Oval	E-LOC
 on	O
 Thursday	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -7452,6 +7534,8 @@ Ferguson	E-PER
 on	O
 Thursday	O
 .	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -7758,6 +7842,8 @@ U.S.	S-LOC
 ,	O
 walkover	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 MILLNS	S-PER
@@ -7816,6 +7902,8 @@ Boland	S-ORG
 overseas	O
 professional	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -8633,6 +8721,8 @@ Attendance	O
 1,500	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 GOTHENBURG	S-LOC
@@ -8711,6 +8801,8 @@ Attendance	O
 :	O
 9,000	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 BRAZILIAN	S-MISC
@@ -8784,6 +8876,8 @@ Portuguesa	S-ORG
 2	O
 Parana	S-ORG
 0	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -9087,6 +9181,8 @@ Fraser	S-PER
 guidance	O
 .	O
 
+-DOCSTART-	O
+
 BADMINTON	O
 -	O
 MALAYSIAN	B-MISC
@@ -9357,6 +9453,8 @@ Indonesia	S-LOC
 )	O
 11-8	O
 11-6	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -10164,6 +10262,8 @@ Chang	E-PER
 U.S.	S-LOC
 )	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 ORIOLES	S-ORG
@@ -10379,6 +10479,8 @@ League	I-MISC
 East	I-MISC
 Division	E-MISC
 .	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -10702,6 +10804,8 @@ AT	O
 SAN	B-LOC
 FRANCISCO	E-LOC
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -10818,6 +10922,8 @@ DIEGO	E-ORG
 7	O
 Montreal	S-ORG
 2	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -11774,6 +11880,8 @@ for	O
 Milwaukee	S-ORG
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 COCU	S-PER
@@ -11871,6 +11979,8 @@ on	O
 Wednesday	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 DUTCH	S-MISC
@@ -11927,6 +12037,8 @@ Halftime	O
 Attendance	O
 8,000	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 DUTCH	S-MISC
@@ -11956,6 +12068,8 @@ Nijmegen	E-ORG
 PSV	B-ORG
 Eindhoven	E-ORG
 4	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -12182,6 +12296,8 @@ Dortmund	E-ORG
 )	O
 .	O
 
+-DOCSTART-	O
+
 ATHLETICS	O
 -	O
 IT	O
@@ -12310,6 +12426,8 @@ men	O
 3,000	O
 metres	O
 .	O
+
+-DOCSTART-	O
 
 GOLF	O
 -	O
@@ -12590,6 +12708,8 @@ Spain	S-LOC
 
 Mark	B-PER
 Mouland	E-PER
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -12896,6 +13016,8 @@ Bulgaria	S-LOC
 Malta	S-LOC
 7.40	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 POLICE	O
@@ -13085,6 +13207,8 @@ he	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 ONE	O
 ROMANIAN	S-MISC
 DIES	O
@@ -13182,6 +13306,8 @@ Sofia	B-ORG
 Newsroom	E-ORG
 ,	O
 359-2-84561	O
+
+-DOCSTART-	O
 
 OFFICIAL	B-ORG
 JOURNAL	E-ORG
@@ -13328,6 +13454,8 @@ END	O
 OF	O
 DOCUMENT	O
 .	O
+
+-DOCSTART-	O
 
 In	B-ORG
 Home	I-ORG
@@ -13588,6 +13716,8 @@ Chicago	B-ORG
 Newsdesk	E-ORG
 312-408-8787	O
 
+-DOCSTART-	O
+
 Oppenheimer	B-ORG
 Capital	E-ORG
 to	O
@@ -13659,6 +13789,8 @@ quarter	O
 ended	O
 July	O
 .	O
+
+-DOCSTART-	O
 
 Best	S-ORG
 sees	O
@@ -13959,6 +14091,8 @@ $	O
 million	O
 .	O
 
+-DOCSTART-	O
+
 Measles	O
 exposure	O
 can	O
@@ -14158,6 +14292,8 @@ stillborn	O
 baby	O
 .	O
 
+-DOCSTART-	O
+
 All	O
 the	O
 key	O
@@ -14348,6 +14484,8 @@ Newsroom	E-ORG
 542	O
 7715	O
 
+-DOCSTART-	O
+
 London	S-LOC
 shipsales	O
 .	O
@@ -14448,6 +14586,8 @@ or	O
 other	O
 conditions	O
 .	O
+
+-DOCSTART-	O
 
 Garlic	O
 pills	O
@@ -14713,6 +14853,8 @@ Newsroom	E-ORG
 542	O
 7950	O
 
+-DOCSTART-	O
+
 Britain	S-LOC
 gives	O
 aid	O
@@ -14914,6 +15056,8 @@ that	O
 she	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Tennis	O
 -	O
@@ -15564,6 +15708,8 @@ Sydney	B-ORG
 Newsroom	E-ORG
 61-2	O
 9373-1800	O
+
+-DOCSTART-	O
 
 RTRS	S-ORG
 -	O
@@ -16296,6 +16442,8 @@ back	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Soccer	O
 -	O
 Results	O
@@ -16447,6 +16595,8 @@ Chonbuk	S-ORG
 0	O
 0	O
 
+-DOCSTART-	O
+
 Senegal	S-LOC
 cholera	O
 outbreak	O
@@ -16550,6 +16700,8 @@ Senegalese	S-MISC
 capital	O
 Dakar	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Nigerian	S-MISC
 general	O
@@ -16814,6 +16966,8 @@ the	O
 fighting	O
 .	O
 
+-DOCSTART-	O
+
 Guinea	S-LOC
 calls	O
 two	O
@@ -17040,6 +17194,8 @@ in	O
 1993	O
 .	O
 
+-DOCSTART-	O
+
 South	B-MISC
 African	E-MISC
 answers	O
@@ -17175,6 +17331,8 @@ Atlantic	B-LOC
 Ocean	E-LOC
 .	O
 
+-DOCSTART-	O
+
 Rottweiler	S-MISC
 kills	O
 South	B-MISC
@@ -17283,6 +17441,8 @@ crime-infested	O
 Johannesburg	S-LOC
 area	O
 .	O
+
+-DOCSTART-	O
 
 INDICATORS	O
 -	O
@@ -17550,6 +17710,8 @@ newsroom	O
 1)266	O
 2410	O
 
+-DOCSTART-	O
+
 Fifty	O
 Russians	S-MISC
 die	O
@@ -17740,6 +17902,8 @@ the	O
 rebels	O
 .	O
 
+-DOCSTART-	O
+
 Polish	S-MISC
 schoolgirl	O
 blackmailer	O
@@ -17920,6 +18084,8 @@ underage	O
 offenders	O
 .	O
 
+-DOCSTART-	O
+
 Czech	S-MISC
 CNB-120	S-MISC
 index	O
@@ -17991,6 +18157,8 @@ Prague	B-ORG
 Newsroom	E-ORG
 ,	O
 42-2-2423-0003	O
+
+-DOCSTART-	O
 
 Russians	S-MISC
 ,	O
@@ -18080,6 +18248,8 @@ forces	O
 in	O
 Chechnya	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Lebed	S-PER
 aide	O
@@ -18211,6 +18381,8 @@ Chechnya	S-LOC
 .	O
 "	O
 
+-DOCSTART-	O
+
 Yeltsin	S-PER
 shown	O
 on	O
@@ -18295,6 +18467,8 @@ of	O
 northwestern	O
 Russia	S-LOC
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -18476,6 +18650,8 @@ newsroom	O
 +387-71-663-864	O
 .	O
 
+-DOCSTART-	O
+
 Grozny	S-LOC
 quiet	O
 overnight	O
@@ -18619,6 +18795,8 @@ August	O
 6	O
 .	O
 
+-DOCSTART-	O
+
 Boat	O
 passengers	O
 rescued	O
@@ -18753,6 +18931,8 @@ of	O
 Buenaventura	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Argentine	S-MISC
 July	O
 raw	O
@@ -18879,6 +19059,8 @@ Aires	I-ORG
 Newsroom	E-ORG
 +541	O
 318-0655	O
+
+-DOCSTART-	O
 
 Peru	S-LOC
 's	O
@@ -19071,6 +19253,8 @@ infrastructure	O
 since	O
 1980	O
 .	O
+
+-DOCSTART-	O
 
 Former	O
 Surinam	S-LOC
@@ -19365,6 +19549,8 @@ soccer	O
 teams	O
 .	O
 
+-DOCSTART-	O
+
 Noisy	O
 saw	O
 leads	O
@@ -19566,6 +19752,8 @@ police	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 Australia	S-LOC
 foreign	O
 minister	O
@@ -19740,6 +19928,8 @@ Canberra	S-LOC
 in	O
 March	O
 .	O
+
+-DOCSTART-	O
 
 Palestinians	S-MISC
 accuse	O
@@ -20151,6 +20341,8 @@ in	O
 1994	O
 .	O
 
+-DOCSTART-	O
+
 Egypt	S-LOC
 blames	O
 Istanbul	S-LOC
@@ -20383,6 +20575,8 @@ agency	O
 in	O
 English	S-MISC
 .	O
+
+-DOCSTART-	O
 
 Egypt	S-LOC
 wants	O
@@ -20658,6 +20852,8 @@ ordinary	O
 Sudanese	S-MISC
 .	O
 
+-DOCSTART-	O
+
 Turkish	S-MISC
 shares	O
 shed	O
@@ -20905,6 +21101,8 @@ Newsroom	E-ORG
 +90-212-275	O
 0875	O
 SA	O
+
+-DOCSTART-	O
 
 Miss	B-MISC
 Universe	E-MISC
@@ -21482,6 +21680,8 @@ he	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 Kevorkian	S-PER
 attends	O
 third	O
@@ -21753,6 +21953,8 @@ her	O
 life	O
 .	O
 
+-DOCSTART-	O
+
 Fairview	S-LOC
 ,	O
 Texas	S-LOC
@@ -21814,6 +22016,8 @@ Municipal	I-ORG
 Desk	E-ORG
 ,	O
 212-859-1650	O
+
+-DOCSTART-	O
 
 Defiant	O
 U.S.	S-LOC
@@ -22511,6 +22715,8 @@ prison	O
 term	O
 .	O
 
+-DOCSTART-	O
+
 UN	S-ORG
 official	O
 says	O
@@ -22631,6 +22837,8 @@ least	O
 10	O
 days	O
 .	O
+
+-DOCSTART-	O
 
 Suspected	O
 killers	O
@@ -22814,6 +23022,8 @@ commanding	O
 lead	O
 .	O
 
+-DOCSTART-	O
+
 German	S-MISC
 flown	O
 cargo	O
@@ -22977,6 +23187,8 @@ Fax+44	O
 542	O
 5017	O
 
+-DOCSTART-	O
+
 Paribas	S-ORG
 repeats	O
 buy	O
@@ -23086,6 +23298,8 @@ Fax	O
 504	O
 5040	O
 )	O
+
+-DOCSTART-	O
 
 Clinton	S-PER
 's	O
@@ -23274,6 +23488,8 @@ the	O
 last	O
 minute	O
 .	O
+
+-DOCSTART-	O
 
 Bonn	S-LOC
 says	O
@@ -23577,6 +23793,8 @@ Chechnya	S-LOC
 he	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 India	S-LOC
 says	O
@@ -24021,6 +24239,8 @@ security	O
 "	O
 .	O
 
+-DOCSTART-	O
+
 Britain	S-LOC
 says	O
 death	O
@@ -24383,6 +24603,8 @@ London	S-LOC
 suburb	O
 .	O
 
+-DOCSTART-	O
+
 India	S-LOC
 fears	O
 attempts	O
@@ -24630,6 +24852,8 @@ the	O
 state	O
 .	O
 
+-DOCSTART-	O
+
 Dhaka	S-LOC
 stocks	O
 end	O
@@ -24766,6 +24990,8 @@ of	O
 Friday	O
 weekend	O
 .	O
+
+-DOCSTART-	O
 
 India	S-LOC
 RBI	S-ORG
@@ -24951,6 +25177,8 @@ newsroom	O
 ,	O
 +91-11-3012024	O
 
+-DOCSTART-	O
+
 Two	O
 pct	O
 India	S-LOC
@@ -25104,6 +25332,8 @@ Bombay	S-LOC
 newsroom	O
 +91-22-265	O
 9000	O
+
+-DOCSTART-	O
 
 Mother	B-PER
 Teresa	E-PER
@@ -25881,6 +26111,8 @@ her	O
 defence	O
 .	O
 
+-DOCSTART-	O
+
 RTRS	S-ORG
 -	O
 FOCUS-News	O
@@ -26475,6 +26707,8 @@ Newsroom	E-ORG
 61-2	O
 373-1800	O
 
+-DOCSTART-	O
+
 RTRS	S-ORG
 -	O
 Budget	O
@@ -26701,6 +26935,8 @@ RBA	S-ORG
 said	O
 .	O
 
+-DOCSTART-	O
+
 BNZ	S-ORG
 cuts	O
 NZ	S-LOC
@@ -26800,6 +27036,8 @@ newsroom	O
 4	O
 4734	O
 746	O
+
+-DOCSTART-	O
 
 Power	B-ORG
 NZ	I-ORG
@@ -26948,6 +27186,8 @@ newsroom	O
 4	O
 4734	O
 746	O
+
+-DOCSTART-	O
 
 Thais	O
 hunt	O
@@ -27167,6 +27407,8 @@ official	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 Tokyo	B-ORG
 Soir	E-ORG
 -	O
@@ -27249,6 +27491,8 @@ s	O
 formal	O
 wear	O
 .	O
+
+-DOCSTART-	O
 
 Ka	B-ORG
 Wah	I-ORG
@@ -27354,6 +27598,8 @@ Newsroom	E-ORG
 )	O
 2847	O
 4039	O
+
+-DOCSTART-	O
 
 Malaysia	S-LOC
 bans	O
@@ -27479,6 +27725,8 @@ immediately	O
 he	O
 added	O
 .	O
+
+-DOCSTART-	O
 
 INDONESIAN	S-MISC
 STOCKS	O
@@ -27719,6 +27967,8 @@ Jakarta	S-LOC
 and	O
 Surabaya	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Key	O
 stock	O
@@ -28080,6 +28330,8 @@ index	O
 Jan	O
 4/94	O
 )	O
+
+-DOCSTART-	O
 
 Ukraine	S-LOC
 hails	O
@@ -28698,6 +28950,8 @@ united	O
 Europe	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Oldest	O
 Albania	S-LOC
 book	O
@@ -28857,6 +29111,8 @@ Gazeta	B-ORG
 Shqiptare	E-ORG
 said	O
 .	O
+
+-DOCSTART-	O
 
 Russia	S-LOC
 to	O
@@ -29309,6 +29565,8 @@ Newsroom	E-ORG
 941	O
 8520	O
 
+-DOCSTART-	O
+
 Viacom	S-ORG
 plans	O
 "	O
@@ -29534,6 +29792,8 @@ Variety	E-ORG
 said	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 CRAWLEY	S-PER
@@ -29725,6 +29985,8 @@ GMT	S-MISC
 )	O
 .	O
 
+-DOCSTART-	O
+
 MOTOR	O
 RACING	O
 -	O
@@ -29869,6 +30131,8 @@ France	S-LOC
 Ligier	S-ORG
 1:56.417	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 RESULTS	O
@@ -29978,6 +30242,8 @@ seed	O
 )	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 ENGLISH	S-MISC
@@ -30013,6 +30279,8 @@ Tranmere	S-ORG
 Grimsby	S-ORG
 2	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 SCOTTISH	S-MISC
@@ -30042,6 +30310,8 @@ Stirling	E-ORG
 0	O
 Albion	S-ORG
 1	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -30332,6 +30602,8 @@ out	O
 )	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 POLLOCK	S-PER
@@ -30465,6 +30737,8 @@ back	O
 home	O
 .	O
 "	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -30736,6 +31010,8 @@ Cork	S-PER
 Salisbury	S-PER
 14-0-71-0	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -30799,6 +31075,8 @@ Waqar	B-PER
 Younis	E-PER
 4-95	O
 )	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -30969,6 +31247,8 @@ manager	O
 Bryan	B-PER
 Robson	E-PER
 .	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -31610,6 +31890,8 @@ points	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 RESULTS	O
@@ -31786,6 +32068,8 @@ Canada	S-LOC
 7-4	O
 )	O
 
+-DOCSTART-	O
+
 RUGBY	B-ORG
 UNION	E-ORG
 -	O
@@ -31931,6 +32215,8 @@ Markgraaff	S-PER
 said	O
 .	O
 
+-DOCSTART-	O
+
 BADMINTON	O
 -	O
 MALAYSIAN	B-MISC
@@ -32035,6 +32321,8 @@ Indonesia	S-LOC
 
 15-9	O
 15-7	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -32242,6 +32530,8 @@ a	O
 wrist	O
 injury	O
 .	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -32579,6 +32869,8 @@ AT	O
 SAN	B-LOC
 FRANCISCO	E-LOC
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -32683,6 +32975,8 @@ Montreal	S-ORG
 SAN	B-ORG
 FRANCISCO	E-ORG
 4	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -33590,6 +33884,8 @@ six	O
 hits	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 SPORTING	S-ORG
@@ -33726,6 +34022,8 @@ the	O
 season	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 PORTUGUESE	S-MISC
@@ -33754,6 +34052,8 @@ Espinho	S-ORG
 1	O
 Sporting	S-ORG
 3	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -33928,6 +34228,8 @@ on	O
 Saturday	O
 .	O
 
+-DOCSTART-	O
+
 ATHLETICS	O
 -	O
 SALAH	B-PER
@@ -33995,6 +34297,8 @@ June	O
 last	O
 year	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -34075,6 +34379,8 @@ Springer	S-PER
 19,775	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FRENCH	S-MISC
@@ -34109,6 +34415,8 @@ Attendance	O
 15,000	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FRENCH	S-MISC
@@ -34136,6 +34444,8 @@ Paris	B-ORG
 St	I-ORG
 Germain	E-ORG
 0	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -34171,6 +34481,8 @@ Rostock	E-ORG
 0	O
 Hamburg	S-ORG
 1	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -34508,6 +34820,8 @@ the	O
 line	O
 .	O
 
+-DOCSTART-	O
+
 ATHLETICS	O
 -	O
 WOMEN	O
@@ -34574,6 +34888,8 @@ Russia	S-LOC
 )	O
 Brussels	S-LOC
 23.8.96	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -34646,6 +34962,8 @@ adjusted	O
 to	O
 2:28.98	O
 .	O
+
+-DOCSTART-	O
 
 GOLF	O
 -	O
@@ -34936,6 +35254,8 @@ Lawrie	E-PER
 
 66	O
 69	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -35568,6 +35888,8 @@ Golden	B-MISC
 Four	E-MISC
 jackpot	O
 .	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -37101,6 +37423,8 @@ Slovakia	S-LOC
 )	O
 28:42.26	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 JORGE	S-PER
@@ -37291,6 +37615,8 @@ Cadete	E-PER
 Antonio	B-PER
 Folha	E-PER
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -37539,6 +37865,8 @@ Stefan	B-PER
 Kuntz	E-PER
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 EUROPEAN	B-MISC
@@ -37625,6 +37953,8 @@ Athens	B-ORG
 Newsroom	E-ORG
 +301	O
 3311812-4	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -37718,6 +38048,8 @@ Bergen	E-ORG
 (	O
 Norway	S-LOC
 )	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -38000,6 +38332,8 @@ on	O
 Thursday	O
 .	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -38237,6 +38571,8 @@ the	O
 agreement	O
 .	O
 
+-DOCSTART-	O
+
 FORECAST	O
 -	O
 S.AFRICAN	S-MISC
@@ -38420,6 +38756,8 @@ newsroom	O
 482	O
 1003	O
 
+-DOCSTART-	O
+
 Ulster	B-ORG
 Petroleums	I-ORG
 Ltd	E-ORG
@@ -38497,6 +38835,8 @@ Toronto	I-ORG
 Bureau	E-ORG
 416	O
 941-8100	O
+
+-DOCSTART-	O
 
 Nigerian	S-MISC
 terms	O
@@ -38589,6 +38929,8 @@ do	O
 he	O
 added	O
 .	O
+
+-DOCSTART-	O
 
 Mid-tier	O
 golds	O
@@ -38769,6 +39111,8 @@ Bureau	E-ORG
 416	O
 941-8100	O
 
+-DOCSTART-	O
+
 RESEARCH	O
 ALERT	O
 -	O
@@ -38844,6 +39188,8 @@ Chicago	S-LOC
 newsdesk	O
 ,	O
 312-408-8787	O
+
+-DOCSTART-	O
 
 Buffett	S-PER
 raises	O
@@ -38973,6 +39319,8 @@ large	O
 U.S.	S-LOC
 companies	O
 .	O
+
+-DOCSTART-	O
 
 Colombia	S-LOC
 ,	O
@@ -39249,6 +39597,8 @@ and	O
 ACES	S-ORG
 .	O
 
+-DOCSTART-	O
+
 Clean	O
 tanker	O
 fixtures	O
@@ -39506,6 +39856,8 @@ Newsroom	E-ORG
 542	O
 8980	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 PAKISTAN	S-LOC
@@ -39575,6 +39927,8 @@ England	S-LOC
 326	O
 all	O
 out	O
+
+-DOCSTART-	O
 
 RTRS	S-ORG
 -	O
@@ -39815,6 +40169,8 @@ Sydney	B-ORG
 Newsroom	E-ORG
 61-2	O
 9373-1800	O
+
+-DOCSTART-	O
 
 Soccer	O
 -	O
@@ -40406,6 +40762,8 @@ world	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Soccer	O
 -	O
 Kennedy	S-PER
@@ -40505,6 +40863,8 @@ Newsroom	E-ORG
 +353	O
 1	O
 6603377	O
+
+-DOCSTART-	O
 
 Soccer	O
 -	O
@@ -40748,6 +41108,8 @@ in	O
 Brussels	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Nigeria	S-LOC
 police	O
 kill	O
@@ -40831,6 +41193,8 @@ a	O
 sheep	O
 merchant	O
 .	O
+
+-DOCSTART-	O
 
 Rwandan	S-MISC
 group	O
@@ -40934,6 +41298,8 @@ inhuman	O
 action	O
 "	O
 .	O
+
+-DOCSTART-	O
 
 Orthodox	O
 church	O
@@ -41120,6 +41486,8 @@ and	O
 depopulated	O
 .	O
 
+-DOCSTART-	O
+
 Hungary	S-LOC
 's	O
 gross	O
@@ -41219,6 +41587,8 @@ newsroom	O
 266	O
 2410	O
 
+-DOCSTART-	O
+
 Germany	S-LOC
 ,	O
 Poland	S-LOC
@@ -41311,6 +41681,8 @@ and	O
 radioactive	O
 materials	O
 .	O
+
+-DOCSTART-	O
 
 Russians	S-MISC
 ,	O
@@ -41612,6 +41984,8 @@ she	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 WEATHER	O
 -	O
 Conditions	O
@@ -41660,6 +42034,8 @@ Newsroom	E-ORG
 +7095	O
 941	O
 8520	O
+
+-DOCSTART-	O
 
 Granic	S-PER
 arrives	O
@@ -41876,6 +42252,8 @@ the	O
 Balkans	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Ecuador	S-LOC
 president	O
 to	O
@@ -42046,6 +42424,8 @@ percent	O
 indigenous	O
 .	O
 
+-DOCSTART-	O
+
 Brazil	S-LOC
 to	O
 use	O
@@ -42177,6 +42557,8 @@ it	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 HK	S-LOC
 's	O
 Tsang	S-PER
@@ -42277,6 +42659,8 @@ Finance	S-ORG
 Bill	B-PER
 Birch	E-PER
 .	O
+
+-DOCSTART-	O
 
 Jordan	S-LOC
 expels	O
@@ -42821,6 +43205,8 @@ economic	O
 hardships	O
 .	O
 
+-DOCSTART-	O
+
 Turkey	S-LOC
 says	O
 killed	O
@@ -43005,6 +43391,8 @@ province	O
 of	O
 Diyarbakir	S-LOC
 .	O
+
+-DOCSTART-	O
 
 U.S.	S-LOC
 says	O
@@ -43265,6 +43653,8 @@ President	O
 Saddam	B-PER
 Hussein	E-PER
 .	O
+
+-DOCSTART-	O
 
 One	O
 teen	O
@@ -43577,6 +43967,8 @@ not	O
 given	O
 .	O
 
+-DOCSTART-	O
+
 Glickman	S-PER
 says	O
 USDA	S-ORG
@@ -43715,6 +44107,8 @@ at	O
 it	O
 .	O
 "	O
+
+-DOCSTART-	O
 
 Mass	S-LOC
 .	O
@@ -43908,6 +44302,8 @@ a	O
 Republican	S-MISC
 .	O
 
+-DOCSTART-	O
+
 Lufthansa	S-ORG
 cargo	O
 Q2	O
@@ -44048,6 +44444,8 @@ Fax+44	O
 171	O
 542	O
 5017	O
+
+-DOCSTART-	O
 
 WSC-India	S-ORG
 Rice	O
@@ -44257,6 +44655,8 @@ Source	O
 Weather	B-ORG
 Services	I-ORG
 Corporation	E-ORG
+
+-DOCSTART-	O
 
 Washington	S-LOC
 to	O
@@ -44480,6 +44880,8 @@ and	O
 east	O
 .	O
 
+-DOCSTART-	O
+
 Nepal	S-LOC
 's	O
 king	O
@@ -44653,6 +45055,8 @@ officials	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 Nepal	S-LOC
 man	O
 held	O
@@ -44817,6 +45221,8 @@ child	O
 protection	O
 laws	O
 .	O
+
+-DOCSTART-	O
 
 OPTIONS	O
 -	O
@@ -45349,6 +45755,8 @@ Bonds	E-ORG
 542	O
 6320	O
 
+-DOCSTART-	O
+
 Goldman	B-ORG
 Sachs	E-ORG
 sets	O
@@ -45441,6 +45849,8 @@ Newsroom	E-ORG
 171	O
 542	O
 7658	O
+
+-DOCSTART-	O
 
 Legal	O
 challenge	O
@@ -45752,6 +46162,8 @@ press	O
 photographers	O
 .	O
 
+-DOCSTART-	O
+
 Jordan	S-LOC
 expels	O
 Iraqi	S-MISC
@@ -45923,6 +46335,8 @@ spread	O
 to	O
 Amman	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Kurd	S-MISC
 rebels	O
@@ -46131,6 +46545,8 @@ Turkish	S-MISC
 forces	O
 .	O
 
+-DOCSTART-	O
+
 SOLIDERE	S-ORG
 shares	O
 mixed	O
@@ -46323,6 +46739,8 @@ editorial	O
 864148	O
 353078	O
 861723	O
+
+-DOCSTART-	O
 
 Zenith	S-ORG
 lands	O
@@ -46953,6 +47371,8 @@ price	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Natural	B-ORG
 Law	I-ORG
 Party	E-ORG
@@ -47165,6 +47585,8 @@ a	O
 sitting	O
 position	O
 .	O
+
+-DOCSTART-	O
 
 Huge	O
 Windows	B-MISC
@@ -47870,6 +48292,8 @@ change	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 says	O
 still	O
@@ -48229,6 +48653,8 @@ to	O
 Cuba	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Wis	S-LOC
 .	O
 
@@ -48467,6 +48893,8 @@ Karen	B-PER
 Pierog	E-PER
 ,	O
 312-408-8647	O
+
+-DOCSTART-	O
 
 Snoozing	O
 Vietnamese	S-MISC
@@ -48729,6 +49157,8 @@ a	O
 large	O
 breakfast	O
 .	O
+
+-DOCSTART-	O
 
 State	O
 ,	O
@@ -49074,6 +49504,8 @@ the	O
 cause	O
 .	O
 
+-DOCSTART-	O
+
 RESEARCH	O
 ALERT	O
 -	O
@@ -49202,6 +49634,8 @@ Newsdesk	E-ORG
 -	O
 312-408-8787	O
 
+-DOCSTART-	O
+
 SunGard	S-ORG
 to	O
 buy	O
@@ -49304,6 +49738,8 @@ newsroom	O
 )	O
 859-1610	O
 
+-DOCSTART-	O
+
 Alpha	B-ORG
 Techs	E-ORG
 closes	O
@@ -49395,6 +49831,8 @@ newsroom	O
 212	O
 )	O
 859-1610	O
+
+-DOCSTART-	O
 
 Analysts	O
 hold	O
@@ -49694,6 +50132,8 @@ Newsroom	E-ORG
 504	O
 5000	O
 
+-DOCSTART-	O
+
 Boskalis	S-ORG
 upgrades	O
 1996	O
@@ -49819,6 +50259,8 @@ year-earlier	O
 million	O
 .	O
 
+-DOCSTART-	O
+
 Greek	S-MISC
 president	O
 dissolves	O
@@ -49925,6 +50367,8 @@ October	O
 next	O
 year	O
 .	O
+
+-DOCSTART-	O
 
 Libyan	S-MISC
 man	O
@@ -50058,6 +50502,8 @@ investigations	O
 he	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Deutsche	B-ORG
 Bahn	E-ORG
@@ -50195,6 +50641,8 @@ Newsroom	E-ORG
 +49	O
 69	O
 756525	O
+
+-DOCSTART-	O
 
 Sea	O
 lion	O
@@ -50452,6 +50900,8 @@ suction	O
 cups	O
 .	O
 
+-DOCSTART-	O
+
 RTRS	S-ORG
 -	O
 Australia	B-ORG
@@ -50652,6 +51102,8 @@ Newsroom	E-ORG
 61-2	O
 373-1800	O
 
+-DOCSTART-	O
+
 RTRS	S-ORG
 -	O
 Toyota	B-ORG
@@ -50692,6 +51144,8 @@ a	O
 two-week	O
 stoppage	O
 .	O
+
+-DOCSTART-	O
 
 RTRS	S-ORG
 -	O
@@ -50855,6 +51309,8 @@ Newsroom	E-ORG
 9373	O
 1800	O
 
+-DOCSTART-	O
+
 South	B-MISC
 Korean	E-MISC
 students	O
@@ -50984,6 +51440,8 @@ the	O
 campus	O
 .	O
 
+-DOCSTART-	O
+
 S.	B-MISC
 Korean	E-MISC
 won	O
@@ -51099,6 +51557,8 @@ positions	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Orii	S-ORG
 -	O
 96/97	O
@@ -51167,6 +51627,8 @@ makes	O
 automation	O
 equipment	O
 .	O
+
+-DOCSTART-	O
 
 Orii	S-ORG
 -	O
@@ -51252,6 +51714,8 @@ makes	O
 automation	O
 equipment	O
 .	O
+
+-DOCSTART-	O
 
 China	S-LOC
 copper	O
@@ -52015,6 +52479,8 @@ newsroom	O
 )	O
 2843-6470	O
 
+-DOCSTART-	O
+
 Companion	B-ORG
 Marble	E-ORG
 posts	O
@@ -52132,6 +52598,8 @@ Room	E-ORG
 )	O
 2843	O
 6368	O
+
+-DOCSTART-	O
 
 Softbank	S-ORG
 to	O
@@ -52269,6 +52737,8 @@ United	B-LOC
 States	E-LOC
 .	O
 
+-DOCSTART-	O
+
 Shanghai	B-ORG
 Post	I-ORG
 and	I-ORG
@@ -52347,6 +52817,8 @@ figures	O
 were	O
 unaudited	O
 .	O
+
+-DOCSTART-	O
 
 Promodes	S-ORG
 set	O
@@ -52512,6 +52984,8 @@ newsroom	O
 1	O
 4221	O
 5452	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -52876,6 +53350,8 @@ for	O
 recycling	O
 .	O
 
+-DOCSTART-	O
+
 Ford	B-ORG
 China	E-ORG
 JV	O
@@ -53123,6 +53599,8 @@ $	O
 yuan	O
 )	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 RESULTS	O
@@ -53196,6 +53674,8 @@ Slovakia	S-LOC
 7-0	O
 )	O
 6-3	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -53272,6 +53752,8 @@ Spain	S-LOC
 6-2	O
 7-5	O
 .	O
+
+-DOCSTART-	O
 
 RALLYING	O
 -	O
@@ -53538,6 +54020,8 @@ shaft	O
 snapped	O
 .	O
 
+-DOCSTART-	O
+
 MOTOR	O
 RACING	O
 -	O
@@ -53779,6 +54263,8 @@ Italy	S-LOC
 Minardi	S-ORG
 1:58.579	O
 
+-DOCSTART-	O
+
 RALLYING	O
 -	O
 BELGIAN	S-MISC
@@ -53933,6 +54419,8 @@ the	O
 course	O
 .	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 RESULTS	O
@@ -54029,6 +54517,8 @@ Argentina	S-LOC
 
 6-4	O
 6-1	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -54139,6 +54629,8 @@ U.S.	S-LOC
 6-4	O
 6-4	O
 
+-DOCSTART-	O
+
 GOLF	S-LOC
 -	O
 THUNDERSTORMS	O
@@ -54231,6 +54723,8 @@ third	O
 round	O
 begins	O
 .	O
+
+-DOCSTART-	O
 
 GOLF	O
 -	O
@@ -54624,6 +55118,8 @@ through	O
 18	O
 )	O
 
+-DOCSTART-	O
+
 RUGBY	B-MISC
 LEAGUE	E-MISC
 -	O
@@ -54792,6 +55288,8 @@ Workington	S-ORG
 325	O
 1021	O
 5	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -55263,6 +55761,8 @@ of	O
 86	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -55435,6 +55935,8 @@ Cork	S-PER
 ,	O
 Salisbury	S-PER
 17-0-91-0	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -55790,6 +56292,8 @@ Fairbrother	E-PER
 )	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 SCOTTISH	S-MISC
@@ -55941,6 +56445,8 @@ Stirling	E-ORG
 0	O
 Albion	S-ORG
 1	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -56182,6 +56688,8 @@ Blackburn	S-ORG
 on	O
 Sunday	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -56487,6 +56995,8 @@ City	E-ORG
 Blackpool	S-ORG
 1	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 PAKISTAN	S-LOC
@@ -56566,6 +57076,8 @@ Ahmed	E-PER
 61	O
 )	O
 .	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -56669,6 +57181,8 @@ Australia	S-LOC
 )	O
 7-5	O
 6-4	O
+
+-DOCSTART-	O
 
 RUGBY	B-ORG
 UNION	E-ORG
@@ -56849,6 +57363,8 @@ Zinzan	B-PER
 Brooke	E-PER
 .	O
 
+-DOCSTART-	O
+
 RUGBY	B-ORG
 UNION	E-ORG
 -	O
@@ -56968,6 +57484,8 @@ three-test	O
 series	O
 2-0	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -57314,6 +57832,8 @@ Rudar	S-ORG
 6	O
 0	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 POLISH	S-MISC
@@ -57393,6 +57913,8 @@ GKS	B-ORG
 Belchatow	E-ORG
 2	O
 
+-DOCSTART-	O
+
 BASKETBALL	O
 -	O
 PHILIPPINE	S-MISC
@@ -57444,6 +57966,8 @@ Shell	S-ORG
 (	O
 65-56	O
 )	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -57580,6 +58104,8 @@ OB	S-ORG
 .407	O
 20	O
 1/2	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -57911,6 +58437,8 @@ AT	O
 SAN	B-LOC
 DIEGO	E-LOC
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -58041,6 +58569,8 @@ SAN	B-ORG
 FRANCISCO	E-ORG
 8	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 PORTUGUESE	S-MISC
@@ -58069,6 +58599,8 @@ Belenenses	S-ORG
 2	O
 Boavista	S-ORG
 4	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -58280,6 +58812,8 @@ on	O
 Sunday	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 BELGIAN	S-MISC
@@ -58339,6 +58873,8 @@ Truiden	E-ORG
 3	O
 Ekeren	S-ORG
 1	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -58407,6 +58943,8 @@ Wreh	E-PER
 Guingamp	S-ORG
 )	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -58618,6 +59156,8 @@ Germain	E-ORG
 
 15,000	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -58844,6 +59384,8 @@ Caen	S-ORG
 5	O
 1	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FRENCH	S-MISC
@@ -58922,6 +59464,8 @@ Paris	B-ORG
 St	I-ORG
 Germain	E-ORG
 0	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -59177,6 +59721,8 @@ Nijmegen	E-ORG
 4	O
 0	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 SUMMARIES	O
@@ -59345,6 +59891,8 @@ Polster	S-PER
 .	O
 
 22,500	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -59629,6 +60177,8 @@ Duisburg	E-ORG
 4	O
 0	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 AUSTRIA	S-LOC
@@ -59807,6 +60357,8 @@ Linz	E-ORG
 9	O
 2	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 RAIN	O
@@ -59866,6 +60418,8 @@ v	O
 Sri	B-LOC
 Lanka	E-LOC
 .	O
+
+-DOCSTART-	O
 
 British	S-MISC
 hostage	O
@@ -60232,6 +60786,8 @@ circumstances	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Princess	O
 Diana	S-PER
 send	O
@@ -60457,6 +61013,8 @@ intensive	O
 care	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 PAKISTAN	S-LOC
@@ -60545,6 +61103,8 @@ England	S-LOC
 all	O
 out	O
 
+-DOCSTART-	O
+
 Soccer	O
 -	O
 Nijmeh	S-ORG
@@ -60599,6 +61159,8 @@ Attendance	O
 :	O
 10,000	O
 .	O
+
+-DOCSTART-	O
 
 Adventurers	O
 start	O
@@ -60944,6 +61506,8 @@ are	O
 common	O
 .	O
 
+-DOCSTART-	O
+
 Cholera	O
 kills	O
 21	O
@@ -61037,6 +61601,8 @@ not	O
 usually	O
 available	O
 .	O
+
+-DOCSTART-	O
 
 Malawi	S-LOC
 's	O
@@ -61210,6 +61776,8 @@ opponents	O
 in	O
 1983	O
 .	O
+
+-DOCSTART-	O
 
 Zimbabwe	S-LOC
 fires	O
@@ -61608,6 +62176,8 @@ at	O
 percent	O
 .	O
 
+-DOCSTART-	O
+
 Rwanda	S-LOC
 says	O
 Zaire	S-LOC
@@ -61885,6 +62455,8 @@ prison	O
 Gatera	S-PER
 added	O
 .	O
+
+-DOCSTART-	O
 
 Revered	O
 skull	O
@@ -62180,6 +62752,8 @@ a	O
 statement	O
 .	O
 
+-DOCSTART-	O
+
 Sudan	S-LOC
 arrests	O
 opposition	O
@@ -62367,6 +62941,8 @@ former	O
 Sudanese	S-MISC
 embassy	O
 .	O
+
+-DOCSTART-	O
 
 Albanian	S-MISC
 Socialists	O
@@ -62588,6 +63164,8 @@ increasingly	O
 unlikely	O
 .	O
 
+-DOCSTART-	O
+
 Nicaraguan	S-MISC
 president	O
 to	O
@@ -62706,6 +63284,8 @@ doctor	O
 Sam	B-PER
 Wilson	E-PER
 .	O
+
+-DOCSTART-	O
 
 Nepal	S-LOC
 wo	O
@@ -62903,6 +63483,8 @@ gave	O
 no	O
 details	O
 .	O
+
+-DOCSTART-	O
 
 Iran	S-LOC
 hangs	O
@@ -63120,6 +63702,8 @@ Golden	B-ORG
 Crescent	E-ORG
 .	O
 "	O
+
+-DOCSTART-	O
 
 Main	O
 Tunisian	S-MISC
@@ -63419,6 +64003,8 @@ in	O
 1993	O
 .	O
 
+-DOCSTART-	O
+
 Kurdish	S-MISC
 group	O
 says	O
@@ -63694,6 +64280,8 @@ Iraqi	S-MISC
 troops	O
 .	O
 
+-DOCSTART-	O
+
 Iran	S-LOC
 accuses	O
 Iraq	S-LOC
@@ -63853,6 +64441,8 @@ a	O
 U.N.-sponsored	S-MISC
 ceasefire	O
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -64040,6 +64630,8 @@ a	O
 dirty	O
 game	O
 .	O
+
+-DOCSTART-	O
 
 Clinton	S-PER
 campaign	O
@@ -64790,6 +65382,8 @@ more	O
 years	O
 .	O
 
+-DOCSTART-	O
+
 Hurricane	O
 expected	O
 to	O
@@ -64940,6 +65534,8 @@ longitude	O
 west	O
 .	O
 
+-DOCSTART-	O
+
 France	S-LOC
 hands	O
 suspected	O
@@ -65028,6 +65624,8 @@ since	O
 the	O
 1960s	O
 .	O
+
+-DOCSTART-	O
 
 German	S-MISC
 troops	O
@@ -65267,6 +65865,8 @@ massacres	O
 he	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Italian	S-MISC
 comics	O
@@ -65565,6 +66165,8 @@ for	O
 northerners	O
 .	O
 
+-DOCSTART-	O
+
 Italian	S-MISC
 farmer	O
 says	O
@@ -65835,6 +66437,8 @@ by	O
 a	O
 passer-by	O
 .	O
+
+-DOCSTART-	O
 
 Belgium	S-LOC
 asks	O
@@ -66522,6 +67126,8 @@ six	O
 houses	O
 .	O
 
+-DOCSTART-	O
+
 Death	O
 toll	O
 of	O
@@ -66762,6 +67368,8 @@ commanding	O
 lead	O
 .	O
 
+-DOCSTART-	O
+
 Malta	S-LOC
 police	O
 seize	O
@@ -66872,6 +67480,8 @@ the	O
 cannabis	O
 .	O
 
+-DOCSTART-	O
+
 Czech	S-MISC
 coach	O
 in	O
@@ -66945,6 +67555,8 @@ southwest	O
 of	O
 Vienna	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Most	O
 Spaniards	O
@@ -67130,6 +67742,8 @@ minus	O
 two	O
 percent	O
 .	O
+
+-DOCSTART-	O
 
 Thirty	O
 killed	O
@@ -67324,6 +67938,8 @@ on	O
 full	O
 alert	O
 .	O
+
+-DOCSTART-	O
 
 Internet	B-ORG
 Startup	E-ORG
@@ -67791,6 +68407,8 @@ and	O
 Individual	S-ORG
 .	O
 
+-DOCSTART-	O
+
 GOLF	O
 -	O
 MICKELSON	S-PER
@@ -68229,6 +68847,8 @@ and	O
 holes	O
 .	O
 
+-DOCSTART-	O
+
 GOLF	O
 -	O
 SCORES	O
@@ -68657,6 +69277,8 @@ Bryant	E-PER
 77	O
 79	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 RESULTS	O
@@ -68742,6 +69364,8 @@ Germany	S-LOC
 7-5	O
 )	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 RESULTS	O
@@ -68800,6 +69424,8 @@ Spain	S-LOC
 6-3	O
 6-0	O
 .	O
+
+-DOCSTART-	O
 
 RALLYING	O
 -	O
@@ -68908,6 +69534,8 @@ Spain	S-LOC
 Ford	B-MISC
 Escort	E-MISC
 3:03	O
+
+-DOCSTART-	O
 
 MOTOCROSS	O
 -	O
@@ -69110,6 +69738,8 @@ Van	B-PER
 Doorn	E-PER
 176	O
 
+-DOCSTART-	O
+
 MOTOCROSS	O
 -	O
 GERMAN	S-MISC
@@ -69296,6 +69926,8 @@ Kawasaki	S-ORG
 6.	O
 Dugmore	S-PER
 152	O
+
+-DOCSTART-	O
 
 MOTOR	O
 RACING	O
@@ -69637,6 +70269,8 @@ Owen-Jones	S-PER
 ,	O
 Raphanel	S-PER
 82	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -70102,6 +70736,8 @@ Britain	S-LOC
 )	O
 10.19	O
 
+-DOCSTART-	O
+
 MOTOR	O
 RACING	O
 -	O
@@ -70338,6 +70974,8 @@ Berger	S-PER
 221.857	O
 kph	O
 )	O
+
+-DOCSTART-	O
 
 MOTOR	O
 RACING	O
@@ -70616,6 +71254,8 @@ Tyrrell	S-ORG
 Footwork	O
 1	O
 
+-DOCSTART-	O
+
 RALLYING	O
 -	O
 LEADING	O
@@ -70725,6 +71365,8 @@ Sweden	S-LOC
 Toyota	B-MISC
 Celica	E-MISC
 2:23	O
+
+-DOCSTART-	O
 
 MOTORCYCLING	O
 -	O
@@ -71151,6 +71793,8 @@ Britain	S-LOC
 Ducati	S-ORG
 82	O
 
+-DOCSTART-	O
+
 MOTORCYCLING	O
 -	O
 JAPANESE	S-MISC
@@ -71495,6 +72139,8 @@ with	O
 254	O
 .	O
 
+-DOCSTART-	O
+
 RUGBY	B-MISC
 LEAGUE	E-MISC
 -	O
@@ -71643,6 +72289,8 @@ Workington	S-ORG
 325	O
 1021	O
 5	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -71850,6 +72498,8 @@ to	O
 spare	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 HINCHCLIFFE	S-PER
@@ -71908,6 +72558,8 @@ recurring	O
 groin	O
 problem	O
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -71968,6 +72620,8 @@ Pakistan	S-LOC
 declared	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 ENGLISH	S-MISC
@@ -72022,6 +72676,8 @@ Halftime	O
 Attendance	O
 54,178	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -72497,6 +73153,8 @@ Portsmouth	S-ORG
 5	O
 0	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -72742,6 +73400,8 @@ Aamir	B-PER
 Sohail	E-PER
 2-1-4-0	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 PAKISTAN	S-LOC
@@ -72791,6 +73451,8 @@ England	S-LOC
 Pakistan	S-LOC
 521-8	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -72936,6 +73598,8 @@ Raith	S-ORG
 8	O
 0	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 PAKISTAN	S-LOC
@@ -72988,6 +73652,8 @@ England	S-LOC
 Pakistan	S-LOC
 473-6	O
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -73264,6 +73930,8 @@ GMT	S-MISC
 )	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -73342,6 +74010,8 @@ Alan	B-PER
 Mullally	E-PER
 .	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 RESULTS	O
@@ -73390,6 +74060,8 @@ Australia	S-LOC
 )	O
 6-2	O
 6-4	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -73461,6 +74133,8 @@ Chile	S-LOC
 
 6-3	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 TOGO	S-LOC
@@ -73523,6 +74197,8 @@ on	O
 aggregate	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 ETHIOPIA	S-LOC
@@ -73580,6 +74256,8 @@ won	O
 penalties	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 YUGOSLAV	S-MISC
@@ -73623,6 +74301,8 @@ Zelesnik	S-ORG
 0	O
 Rudar	S-ORG
 1	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -73765,6 +74445,8 @@ Zagorski	E-PER
 (	O
 Odra	S-ORG
 )	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -74070,6 +74752,8 @@ Bucharest	E-ORG
 9	O
 1	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 POLISH	S-MISC
@@ -74361,6 +75045,8 @@ Lodz	E-ORG
 4	O
 13	O
 2	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -74720,6 +75406,8 @@ Yekaterinburg	E-ORG
 43	O
 16	O
 
+-DOCSTART-	O
+
 AUSTRALIAN	B-MISC
 RULES-AFL	E-MISC
 RESULTS	O
@@ -75048,6 +75736,8 @@ Fitzroy	S-ORG
 49.7	O
 4	O
 
+-DOCSTART-	O
+
 RUGBY	B-MISC
 LEAGUE	E-MISC
 -	O
@@ -75355,6 +76045,8 @@ Queensland	E-ORG
 460	O
 8	O
 
+-DOCSTART-	O
+
 BADMINTON	O
 -	O
 MALAYSIAN	B-MISC
@@ -75492,6 +76184,8 @@ Malaysia	S-LOC
 )	O
 15-5	O
 15-3	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -75642,6 +76336,8 @@ OB	S-ORG
 21	O
 1/2	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -75714,6 +76410,8 @@ Detroit	S-ORG
 KANSAS	B-ORG
 CITY	E-ORG
 4	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -76045,6 +76743,8 @@ ST	B-ORG
 LOUIS	E-ORG
 AT	O
 HOUSTON	S-LOC
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -76613,6 +77313,8 @@ in	O
 innings	O
 .	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 BRAVES	S-ORG
@@ -77138,6 +77840,8 @@ out	O
 six	O
 .	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -77254,6 +77958,8 @@ MINNESOTA	S-ORG
 6	O
 Texas	S-ORG
 5	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -77556,6 +78262,8 @@ the	O
 net	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 PORTUGUESE	S-MISC
@@ -77595,6 +78303,8 @@ Guimaraes	S-ORG
 Gil	B-ORG
 Vicente	E-ORG
 2	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -77934,6 +78644,8 @@ September	O
 8	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FIORENTINA	S-ORG
@@ -77999,6 +78711,8 @@ Savicevic	E-PER
 Attendance	O
 :	O
 29,582	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -78216,6 +78930,8 @@ Start	S-ORG
 56	O
 12	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 SUMMARY	O
@@ -78270,6 +78986,8 @@ Attendance	O
 :	O
 30,000	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -78506,6 +79224,8 @@ Duisburg	E-ORG
 8	O
 0	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 SWISS	S-MISC
@@ -78691,6 +79411,8 @@ Boys	E-ORG
 19	O
 3	O
 
+-DOCSTART-	O
+
 GOLF	O
 -	O
 LEADING	O
@@ -78859,6 +79581,8 @@ Payne	E-PER
 Russell	B-PER
 Claydon	E-PER
 156,996	O
+
+-DOCSTART-	O
 
 CYCLING	O
 -	O
@@ -79046,6 +79770,8 @@ Sciandri	E-PER
 Britain	S-LOC
 )	O
 55	O
+
+-DOCSTART-	O
 
 CYCLING	O
 -	O
@@ -79242,6 +79968,8 @@ the	O
 11	O
 rounds	O
 .	O
+
+-DOCSTART-	O
 
 GOLF	S-LOC
 -	O
@@ -79527,6 +80255,8 @@ Russell	E-PER
 69	O
 71	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 PSV	S-ORG
@@ -79742,6 +80472,8 @@ victory	O
 over	O
 Volendam	S-ORG
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -80006,6 +80738,8 @@ Truiden	E-ORG
 11	O
 3	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 DUTCH	S-MISC
@@ -80248,6 +80982,8 @@ Halftime	O
 Attendance	O
 13,500	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -80541,6 +81277,8 @@ Nijmegen	E-ORG
 4	O
 1	O
 
+-DOCSTART-	O
+
 DUTCH	S-MISC
 CAPTAIN	O
 BLIND	S-PER
@@ -80658,6 +81396,8 @@ for	O
 the	O
 Netherlands	S-LOC
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -80880,6 +81620,8 @@ of	I-ORG
 India	E-ORG
 said	O
 .	O
+
+-DOCSTART-	O
 
 RUGBY	B-MISC
 LEAGUE	E-MISC
@@ -81121,6 +81863,8 @@ Sydney	B-ORG
 Newsroom	E-ORG
 61-2	O
 9373-1800	O
+
+-DOCSTART-	O
 
 RUGBY	B-ORG
 UNION	E-ORG
@@ -81645,6 +82389,8 @@ home	O
 
 '	O
 
+-DOCSTART-	O
+
 Australian	B-MISC
 Rules	E-MISC
 -	O
@@ -81979,6 +82725,8 @@ Newsroom	E-ORG
 61-2	O
 9373-1800	O
 
+-DOCSTART-	O
+
 Rugby	O
 league-Australian	S-MISC
 rugby	O
@@ -82072,6 +82820,8 @@ Sydney	B-ORG
 Newsroom	E-ORG
 61-2	O
 9373-1800	O
+
+-DOCSTART-	O
 
 South	B-LOC
 Africa	E-LOC
@@ -82796,6 +83546,8 @@ downwards	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Moslem	S-MISC
 refugees	O
 seek	O
@@ -83416,6 +84168,8 @@ the	O
 town	O
 .	O
 
+-DOCSTART-	O
+
 Eight	O
 killed	O
 in	O
@@ -83523,6 +84277,8 @@ in	O
 breakaway	O
 Chechnya	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Russian	S-MISC
 troops	O
@@ -83748,6 +84504,8 @@ the	O
 Chechnya	S-LOC
 conflict	O
 .	O
+
+-DOCSTART-	O
 
 Leftist	O
 Mexican	S-MISC
@@ -84073,6 +84831,8 @@ or	O
 injured	O
 .	O
 
+-DOCSTART-	O
+
 Ten	O
 people	O
 gunned	O
@@ -84231,6 +84991,8 @@ paramilitary	O
 group	O
 .	O
 
+-DOCSTART-	O
+
 Port	O
 of	O
 Tauranaga	S-LOC
@@ -84260,6 +85022,8 @@ profit	O
 9.050	O
 vs	O
 6.03	O
+
+-DOCSTART-	O
 
 Two	O
 Thai	S-MISC
@@ -84535,6 +85299,8 @@ splinter	O
 faction	O
 .	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 F-14	S-MISC
 catches	O
@@ -84643,6 +85409,8 @@ landing	O
 he	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Egypt	S-LOC
 hopes	O
@@ -84882,6 +85650,8 @@ he	O
 added	O
 .	O
 
+-DOCSTART-	O
+
 Saudi	B-LOC
 Arabia	E-LOC
 executes	O
@@ -84960,6 +85730,8 @@ and	O
 other	O
 criminals	O
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -85193,6 +85965,8 @@ in	O
 unrest	O
 .	O
 
+-DOCSTART-	O
+
 Netanyahu	S-PER
 ,	O
 Weizman	S-PER
@@ -85415,6 +86189,8 @@ process	O
 must	O
 continue	O
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -85672,6 +86448,8 @@ organised	O
 crime	O
 .	O
 
+-DOCSTART-	O
+
 Voting	O
 begins	O
 in	O
@@ -85748,6 +86526,8 @@ a.m.	O
 gmt	O
 )	O
 .	O
+
+-DOCSTART-	O
 
 Israeli	S-MISC
 president	O
@@ -85975,6 +86755,8 @@ slow	O
 it	O
 down	O
 .	O
+
+-DOCSTART-	O
 
 Corporate	O
 America	S-LOC
@@ -86707,6 +87489,8 @@ line	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Belgian	S-MISC
 police	O
 arrest	O
@@ -87101,6 +87885,8 @@ of	I-ORG
 Investigation	E-ORG
 .	O
 
+-DOCSTART-	O
+
 French	S-MISC
 1997	O
 budget	O
@@ -87189,6 +87975,8 @@ newsroom	O
 +331	O
 4221	O
 5452	O
+
+-DOCSTART-	O
 
 19	O
 die	O
@@ -87314,6 +88102,8 @@ later	O
 in	O
 hospital	O
 .	O
+
+-DOCSTART-	O
 
 North	B-MISC
 Afghan	E-MISC
@@ -87533,6 +88323,8 @@ in	O
 the	O
 north	O
 .	O
+
+-DOCSTART-	O
 
 Students	O
 burn	O
@@ -87990,6 +88782,8 @@ told	O
 reporters	O
 .	O
 
+-DOCSTART-	O
+
 16	O
 die	O
 as	O
@@ -88091,6 +88885,8 @@ later	O
 in	O
 hospital	O
 .	O
+
+-DOCSTART-	O
 
 FEATURE	O
 -	O
@@ -89086,6 +89882,8 @@ outcome	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Gencor	S-ORG
 swells	O
 profit	O
@@ -89719,6 +90517,8 @@ newsroom	O
 11	O
 482-1003	O
 
+-DOCSTART-	O
+
 Advanced	B-ORG
 Medical	E-ORG
 buying	O
@@ -90271,6 +91071,8 @@ companies	O
 boards	O
 .	O
 
+-DOCSTART-	O
+
 Dow	S-MISC
 rises	O
 on	O
@@ -90376,6 +91178,8 @@ yield	O
 6.96	O
 percent	O
 .	O
+
+-DOCSTART-	O
 
 RUGBY	B-MISC
 LEAGUE	E-MISC
@@ -90596,6 +91400,8 @@ against	O
 London	S-ORG
 .	O
 
+-DOCSTART-	O
+
 RALLYING	O
 -	O
 1,000	B-MISC
@@ -90733,6 +91539,8 @@ Italy	S-LOC
 Subaru	B-MISC
 Impreza	E-MISC
 18:28	O
+
+-DOCSTART-	O
 
 RALLYING	O
 -	O
@@ -90940,6 +91748,8 @@ by	O
 points	O
 .	O
 
+-DOCSTART-	O
+
 RALLYING	O
 -	O
 MAKINEN	S-PER
@@ -90978,6 +91788,8 @@ the	O
 world	O
 championship	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -91166,6 +91978,8 @@ to	O
 cheers	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 ENGLISH	S-MISC
@@ -91207,6 +92021,8 @@ Halftime	O
 Attendance	O
 25,860	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -91446,6 +92262,8 @@ Wimbledon	S-ORG
 6	O
 0	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 PAKISTAN	S-LOC
@@ -91631,6 +92449,8 @@ Pakistan	S-LOC
 300	O
 ,	O
 70	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -91840,6 +92660,8 @@ Durham	S-ORG
 22	O
 50	O
 87	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -92223,6 +93045,8 @@ Hampshire	S-ORG
 
 7.	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 PAKISTAN	S-LOC
@@ -92280,6 +93104,8 @@ declared	O
 and	O
 48-1	O
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -92599,6 +93425,8 @@ win	O
 series	O
 2-0	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 PAKISTAN	S-LOC
@@ -92655,6 +93483,8 @@ the	O
 series	O
 1-0	O
 .	O
+
+-DOCSTART-	O
 
 RUGBY	B-MISC
 LEAGUE	E-MISC
@@ -92825,6 +93655,8 @@ Workington	S-ORG
 325	O
 1021	O
 5	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -93164,6 +93996,8 @@ v	O
 Bolton	S-ORG
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 COSTA	B-LOC
@@ -93228,6 +94062,8 @@ Salas	E-PER
 Attendance	O
 :	O
 8,000	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -93649,6 +94485,8 @@ leg	O
 4-1	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 AFRICAN	B-MISC
@@ -93760,6 +94598,8 @@ start	O
 in	O
 October	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -94004,6 +94844,8 @@ Kremin	S-ORG
 1	O
 14	O
 1	O
+
+-DOCSTART-	O
 
 SWIMMING	O
 -	O
@@ -94388,6 +95230,8 @@ post-Soviet	S-MISC
 Russia	S-LOC
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 SLOVAK	S-MISC
@@ -94659,6 +95503,8 @@ Zilina	E-ORG
 0	O
 6	O
 0	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -94955,6 +95801,8 @@ newsroom	O
 266	O
 2410	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 CZECH	S-MISC
@@ -95233,6 +96081,8 @@ Kralove	E-ORG
 7	O
 1	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 MEXICAN	S-MISC
@@ -95494,6 +96344,8 @@ UAG	S-ORG
 1	O
 8	O
 0	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -95843,6 +96695,8 @@ this	O
 year	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 ARGENTINE	S-MISC
@@ -95971,6 +96825,8 @@ overall	O
 champion	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 HONDURAS	S-LOC
@@ -96025,6 +96881,8 @@ Pavon	E-PER
 (	O
 37th	O
 )	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -96388,6 +97246,8 @@ games	O
 won	O
 .	O
 
+-DOCSTART-	O
+
 BASKETBALL	O
 -	O
 PHILIPPINE	S-MISC
@@ -96432,6 +97292,8 @@ Miguel	E-ORG
 45-46	O
 half-time	O
 )	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -96586,6 +97448,8 @@ Chonbuk	S-ORG
 5	O
 0	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 RESULTS	O
@@ -96722,6 +97586,8 @@ OB	S-ORG
 20	O
 1/2	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 MOROCCAN	S-MISC
@@ -96795,6 +97661,8 @@ Jadida	E-ORG
 Hassania	B-ORG
 Agadir	E-ORG
 0	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -97229,6 +98097,8 @@ of	O
 the	O
 sandwich	O
 .	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -98007,6 +98877,8 @@ of	O
 China	S-LOC
 .	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 STICH	S-PER
@@ -98744,6 +99616,8 @@ seeded	O
 Stich	S-PER
 said	O
 .	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -99671,6 +100545,8 @@ Germany	S-LOC
 6-2	O
 6-1	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 CUBS	S-ORG
@@ -100294,6 +101170,8 @@ right	O
 shoulder	O
 .	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -100602,6 +101480,8 @@ CINCINNATI	S-ORG
 AT	O
 COLORADO	S-LOC
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 BONDS	S-PER
@@ -100856,6 +101736,8 @@ at	O
 295	O
 games	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -101150,6 +102032,8 @@ Arsenal	S-ORG
 )	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 BARCELONA	S-ORG
@@ -101227,6 +102111,8 @@ penalty	O
 
 Attendance	O
 30,000	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -101385,6 +102271,8 @@ Linz	E-ORG
 9	O
 2	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 AUSTRALIA	S-LOC
@@ -101443,6 +102331,8 @@ in	O
 41	O
 overs	O
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -101793,6 +102683,8 @@ by	O
 runs	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 AUSTRALIA	S-LOC
@@ -101832,6 +102724,8 @@ tournament	O
 on	O
 Monday	O
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -101957,6 +102851,8 @@ Mark	B-PER
 Dekker	E-PER
 .	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -102033,6 +102929,8 @@ daily	O
 Noticias	S-ORG
 said	O
 .	O
+
+-DOCSTART-	O
 
 Lamonts	B-ORG
 Apparel	E-ORG
@@ -102304,6 +103202,8 @@ $	O
 million	O
 .	O
 
+-DOCSTART-	O
+
 Passengers	O
 rescued	O
 from	O
@@ -102439,6 +103339,8 @@ off	O
 north-west	O
 France	S-LOC
 .	O
+
+-DOCSTART-	O
 
 OSCE	S-ORG
 delays	O
@@ -103114,6 +104016,8 @@ or	O
 fear	O
 .	O
 "	O
+
+-DOCSTART-	O
 
 After	O
 truce	O
@@ -103799,6 +104703,8 @@ a	O
 war	O
 .	O
 
+-DOCSTART-	O
+
 Yeltsin	S-PER
 on	O
 holiday	O
@@ -103997,6 +104903,8 @@ a	O
 holiday	O
 home	O
 .	O
+
+-DOCSTART-	O
 
 Yugo	B-ORG
 Zastava	E-ORG
@@ -104352,6 +105260,8 @@ Newsroom	E-ORG
 222	O
 4254	O
 
+-DOCSTART-	O
+
 Croatian	S-MISC
 lending	O
 rate	O
@@ -104540,6 +105450,8 @@ Zagreb	B-ORG
 Newsroom	E-ORG
 ,	O
 385-1-4557075	O
+
+-DOCSTART-	O
 
 SVCD	B-ORG
 Bulgaria	E-ORG
@@ -104833,6 +105745,8 @@ Newsroom	E-ORG
 ,	O
 359-2-84561	O
 
+-DOCSTART-	O
+
 Yeltsin	S-PER
 's	O
 wife	O
@@ -105040,6 +105954,8 @@ go	O
 or	O
 when	O
 .	O
+
+-DOCSTART-	O
 
 Mostostal	B-ORG
 Z	E-ORG
@@ -105328,6 +106244,8 @@ Newsroom	E-ORG
 22	O
 653	O
 9700	O
+
+-DOCSTART-	O
 
 Unknown	O
 group	O
@@ -105646,6 +106564,8 @@ by	O
 Vega	S-PER
 .	O
 
+-DOCSTART-	O
+
 Interacciones	S-ORG
 ups	O
 Mexico	S-LOC
@@ -105896,6 +106816,8 @@ newsroom	O
 +525	O
 728-9560	O
 
+-DOCSTART-	O
+
 Bancomext	S-ORG
 official	O
 says	O
@@ -105991,6 +106913,8 @@ a	O
 news	O
 conference	O
 .	O
+
+-DOCSTART-	O
 
 Colombian	S-MISC
 peso	O
@@ -106180,6 +107104,8 @@ newsroom	O
 610	O
 7944	O
 
+-DOCSTART-	O
+
 Japan	S-LOC
 's	O
 Hashimoto	S-PER
@@ -106251,6 +107177,8 @@ to	O
 Costa	B-LOC
 Rica	E-LOC
 .	O
+
+-DOCSTART-	O
 
 Nicaraguan	S-MISC
 president	O
@@ -106438,6 +107366,8 @@ seven	O
 years	O
 .	O
 
+-DOCSTART-	O
+
 Eight	O
 drown	O
 in	O
@@ -106547,6 +107477,8 @@ rescued	O
 unhurt	O
 .	O
 
+-DOCSTART-	O
+
 Banco	B-ORG
 de	I-ORG
 Mexico	E-ORG
@@ -106617,6 +107549,8 @@ City	E-LOC
 newsroom	O
 525	O
 728-9559	O
+
+-DOCSTART-	O
 
 Dutch	S-MISC
 couple	O
@@ -106735,6 +107669,8 @@ were	O
 immediately	O
 available	O
 .	O
+
+-DOCSTART-	O
 
 RTRS	S-ORG
 -	O
@@ -106931,6 +107867,8 @@ Newsroom	E-ORG
 61-2	O
 373-1800	O
 
+-DOCSTART-	O
+
 Police	O
 capture	O
 Auckland	S-LOC
@@ -107091,6 +108029,8 @@ newsroom	O
 4	O
 473-4746	O
 
+-DOCSTART-	O
+
 Police	O
 seek	O
 fugitive	O
@@ -107203,6 +108143,8 @@ newsroom	O
 4	O
 473-4746	O
 
+-DOCSTART-	O
+
 SIMEX	B-ORG
 Brent	E-ORG
 closed	O
@@ -107296,6 +108238,8 @@ Newsroom	E-ORG
 870	O
 3081	O
 )	O
+
+-DOCSTART-	O
 
 Metro	S-ORG
 slides	O
@@ -107399,6 +108343,8 @@ newsroom	O
 65	O
 8703080	O
 )	O
+
+-DOCSTART-	O
 
 Indonesian	S-MISC
 rupiah	O
@@ -107757,6 +108703,8 @@ on	O
 Monday	O
 .	O
 
+-DOCSTART-	O
+
 Senate	S-ORG
 intelligence	O
 chairman	O
@@ -108042,6 +108990,8 @@ Saudi	B-LOC
 Arabia	E-LOC
 .	O
 
+-DOCSTART-	O
+
 Hijacked	O
 Sudanese	S-MISC
 plane	O
@@ -108143,6 +109093,8 @@ seek	O
 political	O
 asylum	O
 .	O
+
+-DOCSTART-	O
 
 Kurds	S-MISC
 clash	O
@@ -108423,6 +109375,8 @@ in	O
 1991	O
 .	O
 
+-DOCSTART-	O
+
 Egypt	S-LOC
 to	O
 press	O
@@ -108641,6 +109595,8 @@ in	O
 Britain	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Israeli	S-MISC
 army	O
 ransacks	O
@@ -108844,6 +109800,8 @@ for	O
 military	O
 training	O
 .	O
+
+-DOCSTART-	O
 
 U.S.	S-LOC
 base	O
@@ -109248,6 +110206,8 @@ desk	O
 1646	O
 )	O
 
+-DOCSTART-	O
+
 Florida	S-LOC
 boy	O
 kills	O
@@ -109437,6 +110397,8 @@ a	O
 suicide	O
 .	O
 
+-DOCSTART-	O
+
 CBOT	O
 rice	O
 closes	O
@@ -109559,6 +110521,8 @@ cwt	O
 Sam	B-PER
 Nelson	E-PER
 312-408-8721	O
+
+-DOCSTART-	O
 
 Talbott	S-PER
 to	O
@@ -109707,6 +110671,8 @@ situation	O
 in	O
 Haiti	S-LOC
 .	O
+
+-DOCSTART-	O
 
 U.S.	B-LOC
 Midwest	E-LOC
@@ -109942,6 +110908,8 @@ closed	O
 Bob	B-PER
 Janis	E-PER
 312-983-7347--	O
+
+-DOCSTART-	O
 
 Gore	S-PER
 presents	O
@@ -110715,6 +111683,8 @@ with	O
 that	O
 .	O
 "	O
+
+-DOCSTART-	O
 
 Actor	O
 Reeve	S-PER
@@ -111620,6 +112590,8 @@ in	O
 1978	O
 .	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 boy	O
 ,	O
@@ -111778,6 +112750,8 @@ loud	O
 arguments	O
 .	O
 
+-DOCSTART-	O
+
 Pakistani	S-MISC
 bourse	O
 to	O
@@ -111845,6 +112819,8 @@ previously	O
 Karachi	S-LOC
 newsroom	O
 9221-5685192	O
+
+-DOCSTART-	O
 
 NWE	O
 oil	O
@@ -112170,6 +113146,8 @@ newsroom	O
 542	O
 8167	O
 
+-DOCSTART-	O
+
 Prairies	S-LOC
 saw	O
 no	O
@@ -112420,6 +113398,8 @@ Gras	E-PER
 204	O
 947	O
 3548	O
+
+-DOCSTART-	O
 
 Brush	B-ORG
 Wellman	E-ORG
@@ -112718,6 +113698,8 @@ Cleveland	B-ORG
 Newsdesk	E-ORG
 216-579-0077	O
 
+-DOCSTART-	O
+
 Salomon	S-ORG
 cuts	O
 refiner	O
@@ -112864,6 +113846,8 @@ consensus	O
 $	O
 0.40	O
 .	O
+
+-DOCSTART-	O
 
 PRESALE	O
 -	O
@@ -113049,6 +114033,8 @@ KENNY	E-ORG
 K-SHEETS	O
 :	O
 
+-DOCSTART-	O
+
 BALANCE	O
 -	O
 Ohio	S-LOC
@@ -113220,6 +114206,8 @@ Desk	E-ORG
 ,	O
 212-859-1650	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -113248,6 +114236,8 @@ August	O
 ,	O
 1996	O
 .	O
+
+-DOCSTART-	O
 
 Chelsea	S-PER
 makes	O
@@ -113501,6 +114491,8 @@ the	O
 spokesman	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Dutch	S-MISC
 closing	O
@@ -113887,6 +114879,8 @@ Newsroom	E-ORG
 20	O
 504	O
 5000	O
+
+-DOCSTART-	O
 
 Tapie	S-PER
 to	O
@@ -114361,6 +115355,8 @@ Supreme	B-ORG
 Court	E-ORG
 .	O
 
+-DOCSTART-	O
+
 Bank	B-ORG
 of	I-ORG
 France	E-ORG
@@ -114497,6 +115493,8 @@ Newsroom	E-ORG
 1	O
 4221	O
 5452	O
+
+-DOCSTART-	O
 
 RABOBANK	S-ORG
 [	O
@@ -114747,6 +115745,8 @@ newsroom	O
 504	O
 5000	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -114866,6 +115866,8 @@ Newsroom	E-ORG
 53	O
 81	O
 
+-DOCSTART-	O
+
 ATRIA	S-ORG
 SEES	O
 H2	O
@@ -114958,6 +115960,8 @@ first-half	O
 of	O
 1995	O
 .	O
+
+-DOCSTART-	O
 
 BRIGHT-BELGIANS	S-MISC
 SPEED	O
@@ -115065,6 +116069,8 @@ hour	O
 m.p.h.	O
 )	O
 .	O
+
+-DOCSTART-	O
 
 Thai	S-MISC
 PM	O
@@ -115329,6 +116335,8 @@ the	O
 government	O
 .	O
 
+-DOCSTART-	O
+
 Fontaine	S-ORG
 -	O
 6mth	O
@@ -115401,6 +116409,8 @@ fashion	O
 wigs	O
 .	O
 
+-DOCSTART-	O
+
 Manila	S-LOC
 international	O
 coconut	O
@@ -115469,6 +116479,8 @@ unq	O
 732.50	O
 unq	O
 unq	O
+
+-DOCSTART-	O
 
 RESEARCH	O
 ALERT	O
@@ -115560,6 +116572,8 @@ for	O
 comment	O
 .	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -115650,6 +116664,8 @@ of	O
 foreign	O
 countries	O
 .	O
+
+-DOCSTART-	O
 
 U.N.	S-ORG
 official	O
@@ -115820,6 +116836,8 @@ for	O
 invading	O
 Kuwait	S-LOC
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -116055,6 +117073,8 @@ Lebanon	S-LOC
 round	O
 .	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -116225,6 +117245,8 @@ remove	O
 VAT	O
 .	O
 
+-DOCSTART-	O
+
 Tamils	S-MISC
 demonstrate	O
 outside	O
@@ -116341,6 +117363,8 @@ Eelam	E-ORG
 LTTE	S-ORG
 )	O
 .	O
+
+-DOCSTART-	O
 
 FOCUS	O
 -	O
@@ -117048,6 +118072,8 @@ $	O
 5.24	O
 .	O
 
+-DOCSTART-	O
+
 More	O
 hostages	O
 freed	O
@@ -117284,6 +118310,8 @@ had	O
 reached	O
 80	O
 .	O
+
+-DOCSTART-	O
 
 FEATURE	O
 -	O
@@ -118159,6 +119187,8 @@ of	O
 woe	O
 .	O
 
+-DOCSTART-	O
+
 London	B-MISC
 Carnival	E-MISC
 ends	O
@@ -118320,6 +119350,8 @@ little	O
 crime	O
 .	O
 
+-DOCSTART-	O
+
 OFFICIAL	B-ORG
 JOURNAL	E-ORG
 CONTENTS	O
@@ -118380,6 +119412,8 @@ END	O
 OF	O
 DOCUMENT	O
 .	O
+
+-DOCSTART-	O
 
 Indonesia	S-LOC
 newspaper	O
@@ -118505,6 +119539,8 @@ $	O
 2,341	O
 rupiah	O
 )	O
+
+-DOCSTART-	O
 
 GOLF	O
 -	O
@@ -118737,6 +119773,8 @@ Ryder	B-MISC
 Cup	E-MISC
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 POLAND	S-LOC
@@ -118808,6 +119846,8 @@ Malekos	E-PER
 
 Attendance	O
 3,000	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -119005,6 +120045,8 @@ it	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 RUGBY	B-ORG
 UNION	E-ORG
 -	O
@@ -119101,6 +120143,8 @@ Penalties	O
 Preston	S-PER
 2	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -119233,6 +120277,8 @@ the	O
 future	O
 .	O
 "	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -119942,6 +120988,8 @@ Orient	E-ORG
 3	O
 1	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 ENGLISH	S-MISC
@@ -120136,6 +121184,8 @@ Scunthorpe	S-ORG
 0	O
 Scarborough	S-ORG
 2	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -120629,6 +121679,8 @@ Kabir	E-PER
 0	O
 -	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 GOOCH	S-PER
@@ -120796,6 +121848,8 @@ that	O
 fact	O
 .	O
 "	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -121024,6 +122078,8 @@ the	O
 ban	O
 .	O
 
+-DOCSTART-	O
+
 SQUASH	O
 -	O
 HONG	B-MISC
@@ -121204,6 +122260,8 @@ Sweden	S-LOC
 10-15	O
 15-5	O
 15-11	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -121650,6 +122708,8 @@ on	O
 the	O
 sidelines	O
 .	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -122738,6 +123798,8 @@ Indonesia	S-LOC
 7-4	O
 )	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -123070,6 +124132,8 @@ CINCINNATI	S-ORG
 AT	O
 COLORADO	S-LOC
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 GIANTS	S-ORG
@@ -123353,6 +124417,8 @@ League	I-MISC
 Central	I-MISC
 Division	E-MISC
 .	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -123871,6 +124937,8 @@ a	O
 walk	O
 .	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -123957,6 +125025,8 @@ COLORADO	S-ORG
 9	O
 Cincinnati	S-ORG
 5	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -124834,6 +125904,8 @@ right	O
 wrist	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FRENCH	S-MISC
@@ -124866,6 +125938,8 @@ Marseille	S-ORG
 Attendance	O
 :	O
 20,000	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -125094,6 +126168,8 @@ five	O
 points	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FRENCH	S-MISC
@@ -125123,6 +126199,8 @@ Auxerre	S-ORG
 0	O
 Marseille	S-ORG
 0	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -125241,6 +126319,8 @@ Donkow	S-PER
 
 33,230	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -125490,6 +126570,8 @@ Duisburg	E-ORG
 8	O
 0	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 DUTCH	S-MISC
@@ -125541,6 +126623,8 @@ Halftime	O
 2-2	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 DUTCH	S-MISC
@@ -125571,6 +126655,8 @@ Sittard	E-ORG
 2	O
 Heerenveen	S-ORG
 4	O
+
+-DOCSTART-	O
 
 ICE	O
 HOCKEY	O
@@ -125745,6 +126831,8 @@ Germany	S-LOC
 1	O
 6	O
 0	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -126025,6 +127113,8 @@ next	O
 year	O
 .	O
 
+-DOCSTART-	O
+
 CYCLING	O
 -	O
 BUGNO	S-PER
@@ -126159,6 +127249,8 @@ the	O
 stimulant	O
 caffeine	O
 .	O
+
+-DOCSTART-	O
 
 CYCLING	O
 -	O
@@ -126383,6 +127475,8 @@ time	O
 10.	O
 Teutenberg	S-PER
 0:10	O
+
+-DOCSTART-	O
 
 COFINEC	S-ORG
 SLIPS	O
@@ -126912,6 +128006,8 @@ newsroom	O
 266	O
 2410	O
 
+-DOCSTART-	O
+
 DIRECT	O
 EQUITY	O
 TRADES	O
@@ -127131,6 +128227,8 @@ Newsroom	E-ORG
 ,	O
 42-2-2423-0003	O
 
+-DOCSTART-	O
+
 AFTER	O
 THE	O
 BELL	O
@@ -127246,6 +128344,8 @@ no	O
 after-hours	O
 activity	O
 .	O
+
+-DOCSTART-	O
 
 CBOE	S-ORG
 in	O
@@ -127465,6 +128565,8 @@ E-mail	O
 :	O
 derivatives@reuters.com	O
 
+-DOCSTART-	O
+
 Faulding	S-ORG
 target	O
 of	O
@@ -127593,6 +128695,8 @@ the	O
 company	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 McGrath	S-PER
 left	O
@@ -127942,6 +129046,8 @@ Dublin	B-ORG
 Newsroom	E-ORG
 +6613377	O
 
+-DOCSTART-	O
+
 S.	B-MISC
 African	E-MISC
 apartheid	O
@@ -128018,6 +129124,8 @@ to	O
 face	O
 justice	O
 .	O
+
+-DOCSTART-	O
 
 Sudanese	S-MISC
 rebels	O
@@ -128644,6 +129752,8 @@ Arabised	B-LOC
 north	E-LOC
 .	O
 
+-DOCSTART-	O
+
 OSCE	S-ORG
 postpones	O
 Bosnian	S-MISC
@@ -129009,6 +130119,8 @@ agreement	O
 had	O
 planned	O
 .	O
+
+-DOCSTART-	O
 
 New	O
 talks	O
@@ -129792,6 +130904,8 @@ Russian	B-LOC
 Federation	E-LOC
 .	O
 
+-DOCSTART-	O
+
 Slovenia	S-LOC
 and	O
 Poland	S-LOC
@@ -130046,6 +131160,8 @@ Chamber	B-ORG
 of	I-ORG
 Economy	E-ORG
 .	O
+
+-DOCSTART-	O
 
 Nationalists	O
 want	O
@@ -130409,6 +131525,8 @@ Iliescu	S-PER
 's	O
 impeachment	O
 .	O
+
+-DOCSTART-	O
 
 Estonian	S-MISC
 MPS	O
@@ -130852,6 +131970,8 @@ winner	O
 emerges	O
 .	O
 
+-DOCSTART-	O
+
 Estonia	S-LOC
 assembly	O
 fails	O
@@ -131070,6 +132190,8 @@ such	O
 a	O
 group	O
 .	O
+
+-DOCSTART-	O
 
 Albania	S-LOC
 charges	O
@@ -131317,6 +132439,8 @@ by	O
 foreigners	O
 .	O
 
+-DOCSTART-	O
+
 Estonia	S-LOC
 assembly	O
 again	O
@@ -131554,6 +132678,8 @@ to	O
 a	O
 month	O
 .	O
+
+-DOCSTART-	O
 
 Slovak	S-MISC
 women	O
@@ -131950,6 +133076,8 @@ to	O
 Prague	S-LOC
 .	O
 
+-DOCSTART-	O
+
 WEATHER	O
 -	O
 Conditions	O
@@ -132002,6 +133130,8 @@ Newsroom	E-ORG
 +7095	O
 941	O
 8520	O
+
+-DOCSTART-	O
 
 Russian	S-MISC
 serial	O
@@ -132102,6 +133232,8 @@ to	O
 identify	O
 him	O
 .	O
+
+-DOCSTART-	O
 
 Russian	S-MISC
 army	O
@@ -132296,6 +133428,8 @@ on	O
 Monday	O
 .	O
 
+-DOCSTART-	O
+
 Argentine	S-MISC
 bishop	O
 reminds	O
@@ -132483,6 +133617,8 @@ economic	O
 policy	O
 .	O
 
+-DOCSTART-	O
+
 Brazil	S-LOC
 's	O
 Eletropaulo	S-ORG
@@ -132552,6 +133688,8 @@ newsroom	O
 232	O
 4411	O
 .	O
+
+-DOCSTART-	O
 
 Dutch	S-MISC
 government	O
@@ -132932,6 +134070,8 @@ been	O
 arrested	O
 .	O
 
+-DOCSTART-	O
+
 Venezuela	S-LOC
 unions	O
 harden	O
@@ -133173,6 +134313,8 @@ newsroom	O
 582	O
 834405	O
 
+-DOCSTART-	O
+
 Nicaraguan	S-MISC
 drunks	O
 fear	O
@@ -133396,6 +134538,8 @@ the	O
 local	O
 market	O
 .	O
+
+-DOCSTART-	O
 
 Brazil	S-LOC
 likely	O
@@ -133775,6 +134919,8 @@ newsroom	O
 ,	O
 55-11-2324411	O
 
+-DOCSTART-	O
+
 Czech	B-LOC
 Republic	E-LOC
 's	O
@@ -133870,6 +135016,8 @@ Chancellor	O
 Helmut	B-PER
 Kohl	E-PER
 .	O
+
+-DOCSTART-	O
 
 Former	O
 Argentine	S-MISC
@@ -134193,6 +135341,8 @@ in	O
 1935	O
 .	O
 
+-DOCSTART-	O
+
 Ten	O
 missing	O
 in	O
@@ -134305,6 +135455,8 @@ further	O
 details	O
 .	O
 
+-DOCSTART-	O
+
 Matahari	S-ORG
 revises	O
 down	O
@@ -134415,6 +135567,8 @@ Jakarta	S-LOC
 newsroom	O
 +6221	O
 384-6364	O
+
+-DOCSTART-	O
 
 S.	B-LOC
 Korea	E-LOC
@@ -134528,6 +135682,8 @@ attract	O
 other	O
 candidates	O
 .	O
+
+-DOCSTART-	O
 
 Hong	B-LOC
 Kong	E-LOC
@@ -134711,6 +135867,8 @@ special	O
 visit	O
 permits	O
 .	O
+
+-DOCSTART-	O
 
 Bosnian	S-MISC
 premier	O
@@ -134912,6 +136070,8 @@ ministry	O
 official	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 New	O
 U.N.	S-ORG
@@ -135248,6 +136408,8 @@ and	O
 Somalia	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Kansas	S-LOC
 feedlot	O
 cattle	O
@@ -135313,6 +136475,8 @@ newsdesk	O
 312	O
 408	O
 8720--	O
+
+-DOCSTART-	O
 
 Anti-abortion	O
 speaker	O
@@ -135810,6 +136974,8 @@ it	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 Spring	O
 /	O
@@ -136167,6 +137333,8 @@ bureau	O
 312-408-8720	O
 )	O
 
+-DOCSTART-	O
+
 Birmingham	B-LOC
 Public	I-LOC
 Park	E-LOC
@@ -136257,6 +137425,8 @@ Municipal	I-ORG
 Desk	E-ORG
 ,	O
 212-859-1650	O
+
+-DOCSTART-	O
 
 U.S.	S-LOC
 lauds	O
@@ -136364,6 +137534,8 @@ on	O
 Wednesday	O
 .	O
 
+-DOCSTART-	O
+
 Akron	S-LOC
 ,	O
 Ohio	S-LOC
@@ -136420,6 +137592,8 @@ Sale	O
 Date	O
 :	O
 08/28/96	O
+
+-DOCSTART-	O
 
 Stallone	S-PER
 ,	O
@@ -136558,6 +137732,8 @@ for	O
 the	O
 birth	O
 .	O
+
+-DOCSTART-	O
 
 Poll	O
 shows	O
@@ -136928,6 +138104,8 @@ previous	O
 poll	O
 .	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 bulk	O
 millfeeds	O
@@ -137090,6 +138268,8 @@ offered	O
 Chicago	S-LOC
 newsdesk	O
 312-408-8720--	O
+
+-DOCSTART-	O
 
 Puerto	B-LOC
 Rico	E-LOC
@@ -137325,6 +138505,8 @@ hospital	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 Eau	B-ORG
 Claire	E-ORG
 ,	O
@@ -137385,6 +138567,8 @@ of	O
 5.2893	O
 percent	O
 .	O
+
+-DOCSTART-	O
 
 Massachusetts	S-LOC
 home	O
@@ -137548,6 +138732,8 @@ Boston	S-LOC
 bureau	O
 ,	O
 617-367-4106	O
+
+-DOCSTART-	O
 
 Amtrak	S-ORG
 train	O
@@ -137829,6 +139015,8 @@ Northfield	B-LOC
 Mountains	E-LOC
 .	O
 
+-DOCSTART-	O
+
 Paralympics	S-MISC
 an	O
 example	O
@@ -137984,6 +139172,8 @@ at	O
 near-record	O
 levels	O
 .	O
+
+-DOCSTART-	O
 
 French	S-MISC
 shares	O
@@ -138469,6 +139659,8 @@ newsroom	O
 4221	O
 5452	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -138736,6 +139928,8 @@ Colombo	S-LOC
 newsroom	O
 tel	O
 941-434319	O
+
+-DOCSTART-	O
 
 Mother	B-PER
 Teresa	E-PER
@@ -139367,6 +140561,8 @@ West	B-LOC
 Bengal	E-LOC
 .	O
 
+-DOCSTART-	O
+
 Islamists	S-MISC
 can	O
 meet	O
@@ -139619,6 +140815,8 @@ Japan	S-LOC
 and	O
 Mongolia	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Afghan	S-MISC
 leader	O
@@ -140010,6 +141208,8 @@ in	O
 June	O
 .	O
 
+-DOCSTART-	O
+
 Pakistan	S-LOC
 state	O
 bank	O
@@ -140140,6 +141340,8 @@ bonds	O
 Karachi	S-LOC
 newsroom	O
 9221-5685192	O
+
+-DOCSTART-	O
 
 Nepal	S-LOC
 offers	O
@@ -140439,6 +141641,8 @@ main	O
 opposition	O
 party	O
 .	O
+
+-DOCSTART-	O
 
 Indian	S-MISC
 soy	O
@@ -140774,6 +141978,8 @@ $	O
 rupees	O
 )	O
 
+-DOCSTART-	O
+
 Bangladesh	S-LOC
 Speaker	O
 says	O
@@ -141074,6 +142280,8 @@ minister	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 Bangladesh	S-LOC
 June	O
 M2	O
@@ -141169,6 +142377,8 @@ taka	O
 144.5	O
 139.3	O
 131.7	O
+
+-DOCSTART-	O
 
 HELIBOR	S-MISC
 INTEREST	O
@@ -141271,6 +142481,8 @@ newsroom	O
 680	O
 50	O
 248	O
+
+-DOCSTART-	O
 
 Barrick	S-ORG
 gets	O
@@ -141558,6 +142770,8 @@ Bureau	E-ORG
 416	O
 941-8100	O
 
+-DOCSTART-	O
+
 Penn	B-ORG
 Treaty	E-ORG
 terminates	O
@@ -141689,6 +142903,8 @@ York	I-ORG
 Newsdesk	E-ORG
 212-859-1610	O
 .	O
+
+-DOCSTART-	O
 
 VNU	S-ORG
 details	O
@@ -141825,6 +143041,8 @@ Fax	O
 20	O
 504	O
 5040	O
+
+-DOCSTART-	O
 
 AOL	B-ORG
 Europe	E-ORG
@@ -142048,6 +143266,8 @@ newsroom	O
 0172	O
 6736510	O
 
+-DOCSTART-	O
+
 All	O
 passengers	O
 freed	O
@@ -142220,6 +143440,8 @@ Newsroom	E-ORG
 +	O
 00--44-171-542-7947	O
 
+-DOCSTART-	O
+
 Swiss	B-ORG
 Bank	I-ORG
 Corp	E-ORG
@@ -142360,6 +143582,8 @@ Newsroom	E-ORG
 542	O
 7658	O
 
+-DOCSTART-	O
+
 DBRS	S-ORG
 confirms	O
 Power	B-ORG
@@ -142452,6 +143676,8 @@ with	O
 stable	O
 trends	O
 .	O
+
+-DOCSTART-	O
 
 Turkey	S-LOC
 's	O
@@ -142602,6 +143828,8 @@ independence	O
 from	O
 Turkey	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Egypt	S-LOC
 confiscates	O
@@ -142798,6 +144026,8 @@ on	O
 sale	O
 .	O
 
+-DOCSTART-	O
+
 IPO	S-ORG
 FILING	O
 -	O
@@ -142935,6 +144165,8 @@ $	O
 3,422	O
 )	O
 
+-DOCSTART-	O
+
 AMTRAK	S-ORG
 train	O
 hits	O
@@ -143020,6 +144252,8 @@ not	O
 immediately	O
 available	O
 .	O
+
+-DOCSTART-	O
 
 Wife	O
 of	O
@@ -143531,6 +144765,8 @@ gun	O
 lobby	O
 .	O
 
+-DOCSTART-	O
+
 Latest	O
 opinion	O
 polls	O
@@ -143814,6 +145050,8 @@ newsroom	O
 228	O
 2609760	O
 
+-DOCSTART-	O
+
 Most	O
 hostages	O
 freed	O
@@ -143986,6 +145224,8 @@ to	O
 Britain	S-LOC
 .	O
 
+-DOCSTART-	O
+
 British	B-ORG
 Data	E-ORG
 in	O
@@ -144140,6 +145380,8 @@ Newsroom	E-ORG
 171	O
 542	O
 4017	O
+
+-DOCSTART-	O
 
 Hijacked	O
 Sudan	S-LOC
@@ -144349,6 +145591,8 @@ less	O
 air	O
 traffic	O
 .	O
+
+-DOCSTART-	O
 
 Hijacked	O
 Sudan	S-LOC
@@ -144614,6 +145858,8 @@ around	O
 the	O
 plane	O
 .	O
+
+-DOCSTART-	O
 
 Painted	O
 parrot	O
@@ -144936,6 +146182,8 @@ Drew	S-PER
 said	O
 .	O
 
+-DOCSTART-	O
+
 NZ	S-LOC
 motorist	O
 's	O
@@ -145069,6 +146317,8 @@ on	O
 Tuesday	O
 .	O
 
+-DOCSTART-	O
+
 Indonesia	S-LOC
 's	O
 SBPUs	O
@@ -145124,6 +146374,8 @@ Jakarta	S-LOC
 newsroom	O
 +6221	O
 384-6364	O
+
+-DOCSTART-	O
 
 Seoul	S-LOC
 embassies	O
@@ -145341,6 +146593,8 @@ over	O
 the	O
 crackdown	O
 .	O
+
+-DOCSTART-	O
 
 Nuclear	O
 pact	O
@@ -145696,6 +146950,8 @@ halt	O
 to	O
 testing	O
 .	O
+
+-DOCSTART-	O
 
 Japan	S-LOC
 declares	O
@@ -146092,6 +147348,8 @@ serious	O
 condition	O
 .	O
 
+-DOCSTART-	O
+
 Japan	S-LOC
 aluminium	O
 shipments	O
@@ -146366,6 +147624,8 @@ Desk	E-ORG
 6179	O
 )	O
 
+-DOCSTART-	O
+
 China	S-LOC
 thanks	O
 Gabon	S-LOC
@@ -146632,6 +147892,8 @@ to	O
 failure	O
 .	O
 
+-DOCSTART-	O
+
 Taiwan	S-LOC
 's	O
 Cooperative	B-ORG
@@ -146796,6 +148058,8 @@ Newsroom	E-ORG
 (	O
 5080815	O
 )	O
+
+-DOCSTART-	O
 
 Palestinians	S-MISC
 to	O
@@ -147200,6 +148464,8 @@ resume	O
 under	O
 Netanyahu	S-PER
 .	O
+
+-DOCSTART-	O
 
 SEC	S-ORG
 adopts	O
@@ -147791,6 +149057,8 @@ the	O
 world	O
 .	O
 
+-DOCSTART-	O
+
 ITALIAN	S-MISC
 CABINET	O
 APPROVES	O
@@ -147881,6 +149149,8 @@ keep	O
 three	O
 channels	O
 .	O
+
+-DOCSTART-	O
 
 Passengers	O
 injured	O
@@ -148104,6 +149374,8 @@ agency	O
 APA	S-ORG
 .	O
 
+-DOCSTART-	O
+
 Saskatchewan	B-ORG
 Wheat	I-ORG
 Pool	E-ORG
@@ -148316,6 +149588,8 @@ Gras	E-PER
 204	O
 947	O
 3548	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -148777,6 +150051,8 @@ Kenya	S-LOC
 )	O
 7:48.38	O
 
+-DOCSTART-	O
+
 GOLF	S-LOC
 -	O
 BRITISH	B-MISC
@@ -149069,6 +150345,8 @@ rounds	O
 on	O
 Thursday	O
 
+-DOCSTART-	O
+
 CYCLING	O
 -	O
 KELLY	S-PER
@@ -149148,6 +150426,8 @@ Eijden	E-PER
 in	O
 1:04.541	O
 .	O
+
+-DOCSTART-	O
 
 CYCLING	O
 -	O
@@ -149353,6 +150633,8 @@ U.S.	S-LOC
 Motorola	S-ORG
 same	O
 time	O
+
+-DOCSTART-	O
 
 CYCLING	O
 -	O
@@ -149560,6 +150842,8 @@ Motorola	S-ORG
 same	O
 time	O
 .	O
+
+-DOCSTART-	O
 
 CYCLING	O
 -	O
@@ -149995,6 +151279,8 @@ France	S-LOC
 )	O
 2	O
 
+-DOCSTART-	O
+
 CYCLING	O
 -	O
 BOARDMAN	S-PER
@@ -150319,6 +151605,8 @@ Russia	S-LOC
 )	O
 4:26.467	O
 
+-DOCSTART-	O
+
 CYCLING	O
 -	O
 BOARDMAN	S-PER
@@ -150394,6 +151682,8 @@ on	O
 July	O
 24	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -150687,6 +151977,8 @@ Oldham	S-ORG
 6	O
 0	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLISH	S-MISC
@@ -150751,6 +152043,8 @@ Glamorgan	S-ORG
 v	O
 Durham	S-ORG
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -150928,6 +152222,8 @@ David	B-PER
 Batty	E-PER
 .	O
 
+-DOCSTART-	O
+
 HORSE	O
 RACING	O
 -	O
@@ -151054,6 +152350,8 @@ in	O
 a	O
 classic	O
 .	O
+
+-DOCSTART-	O
 
 ROWING	O
 -	O
@@ -151215,6 +152513,8 @@ endurance	O
 sport	O
 .	O
 "	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -151395,6 +152695,8 @@ in	O
 tests	O
 .	O
 
+-DOCSTART-	O
+
 RUGBY	B-ORG
 UNION	E-ORG
 -	O
@@ -151512,6 +152814,8 @@ statement	O
 on	O
 Wednesday	O
 .	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -152141,6 +153445,8 @@ right-field	O
 wall	O
 .	O
 
+-DOCSTART-	O
+
 RUGBY	B-ORG
 UNION	E-ORG
 -	O
@@ -152414,6 +153720,8 @@ Craig	B-PER
 Dowd	E-PER
 .	O
 
+-DOCSTART-	O
+
 HOCKEY	O
 -	O
 BONNET	S-PER
@@ -152508,6 +153816,8 @@ team	O
 in	O
 Ireland	S-LOC
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -152767,6 +154077,8 @@ Nicky	B-PER
 Boje	E-PER
 .	O
 
+-DOCSTART-	O
+
 BASKETBALL	O
 -	O
 OLYMPIAKOS	S-ORG
@@ -152838,6 +154150,8 @@ until	O
 Saturday	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 RUSSIA	S-LOC
@@ -152905,6 +154219,8 @@ Ronaldo	S-PER
 Attendence	O
 :	O
 20,000	O
+
+-DOCSTART-	O
 
 SQUASH	O
 -	O
@@ -153088,6 +154404,8 @@ Kong	E-LOC
 
 R	O
 
+-DOCSTART-	O
+
 BASKETBALL	O
 -	O
 FORMULA	B-ORG
@@ -153136,6 +154454,8 @@ best-of-seven	O
 series	O
 1-0	O
 )	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -153228,6 +154548,8 @@ Beersheva	E-ORG
 Maccabi	B-ORG
 Herzliya	E-ORG
 0	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -153334,6 +154656,8 @@ on	O
 a	O
 walkover	O
 .	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -153943,6 +155267,8 @@ me	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 TENNIS	O
 -	O
 WEDNESDAY	O
@@ -154545,6 +155871,8 @@ Thigh	O
 injury	O
 )	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -154878,6 +156206,8 @@ AT	O
 SAN	B-LOC
 FRANCISCO	E-LOC
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -154994,6 +156324,8 @@ SEATTLE	S-ORG
 New	B-ORG
 York	E-ORG
 4	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -155598,6 +156930,8 @@ start	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 SOSA	S-PER
@@ -155731,6 +157065,8 @@ Cubs	S-ORG
 playoff	O
 hopes	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -155993,6 +157329,8 @@ fifth-placed	O
 Ajax	S-ORG
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 ROBSON	S-PER
@@ -156241,6 +157579,8 @@ distinct	O
 possibility	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 SUMMARY	O
@@ -156311,6 +157651,8 @@ aggregate	O
 )	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 BARCELONA	S-ORG
@@ -156351,6 +157693,8 @@ win	O
 on	O
 aggregate	O
 )	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -156444,6 +157788,8 @@ Babangida	E-PER
 and	O
 Dani	S-PER
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -156871,6 +158217,8 @@ be	O
 delayed	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 BAYERN	S-ORG
@@ -157059,6 +158407,8 @@ St	B-ORG
 Pauli	E-ORG
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 ITALIAN	B-MISC
@@ -157154,6 +158504,8 @@ Andria	E-ORG
 0	O
 Juventus	S-ORG
 2	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -157293,6 +158645,8 @@ Hirsch	S-PER
 15,000	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 LEADING	O
@@ -157403,6 +158757,8 @@ Guivarch	E-PER
 (	O
 Rennes	S-ORG
 )	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -157921,6 +159277,8 @@ on	O
 Tuesday	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 DUTCH	S-MISC
@@ -158159,6 +159517,8 @@ Halftime	O
 Attendance	O
 4,000	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -158415,6 +159775,8 @@ Duisburg	S-ORG
 9	O
 1	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FRENCH	S-MISC
@@ -158621,6 +159983,8 @@ Colleter	S-PER
 
 16,000	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -158846,6 +160210,8 @@ Nancy	S-ORG
 7	O
 1	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 FRENCH	S-MISC
@@ -158921,6 +160287,8 @@ Auxerre	S-ORG
 0	O
 Marseille	S-ORG
 0	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -159304,6 +160672,8 @@ last	O
 Friday	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 NEW	O
@@ -159570,6 +160940,8 @@ seven	O
 wickets	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 SRI	B-LOC
@@ -159629,6 +161001,8 @@ in	O
 44.2	O
 overs	O
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -159896,6 +161270,8 @@ Man-of-the-Match	O
 Sanath	B-PER
 Jayasuriya	E-PER
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 INDIA	S-LOC
@@ -160022,6 +161398,8 @@ Muralitharan	E-PER
 Ravindra	B-PER
 Pushpakumara	E-PER
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -160188,6 +161566,8 @@ all	O
 the	O
 country	O
 .	O
+
+-DOCSTART-	O
 
 S.AFRICAN	S-MISC
 TRUTH	O
@@ -160509,6 +161889,8 @@ next	O
 week	O
 .	O
 
+-DOCSTART-	O
+
 TURKISH	S-MISC
 AIRPLANE	O
 LANDS	O
@@ -160652,6 +162034,8 @@ hijacker	O
 was	O
 arrested	O
 .	O
+
+-DOCSTART-	O
 
 Arch	S-ORG
 Alberta	S-LOC
@@ -161026,6 +162410,8 @@ Jim	B-PER
 Brumm	E-PER
 212-859-1710	O
 .	O
+
+-DOCSTART-	O
 
 U.S.	S-LOC
 judge	O
@@ -161441,6 +162827,8 @@ the	O
 case	O
 .	O
 
+-DOCSTART-	O
+
 U.S.	B-ORG
 Treasury	E-ORG
 balances	O
@@ -161512,6 +162900,8 @@ to	O
 limit	O
 5,124.053	O
 5,122.084	O
+
+-DOCSTART-	O
 
 COMEX	S-ORG
 copper	O
@@ -161763,6 +163153,8 @@ York	I-ORG
 Commodities	E-ORG
 212-859-1646	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 copper	O
 service	O
@@ -161939,6 +163331,8 @@ York	I-ORG
 Commodities	E-ORG
 212-859-1646	O
 
+-DOCSTART-	O
+
 Harleysville	B-ORG
 Group	E-ORG
 ups	O
@@ -161971,6 +163365,8 @@ Sept	O
 Record	O
 Sept	O
 16	O
+
+-DOCSTART-	O
 
 Chile	S-LOC
 's	O
@@ -162156,6 +163552,8 @@ Desk	E-ORG
 212	O
 859	O
 1620	O
+
+-DOCSTART-	O
 
 Reuters	S-ORG
 historical	O
@@ -162940,6 +164338,8 @@ the	O
 century	O
 .	O
 
+-DOCSTART-	O
+
 UK	S-LOC
 lowers	O
 noise	O
@@ -163197,6 +164597,8 @@ Newsroom	E-ORG
 542	O
 7717	O
 
+-DOCSTART-	O
+
 Tennis	O
 -	O
 Philippoussis	S-PER
@@ -163301,6 +164703,8 @@ Sydney	B-ORG
 Newsroom	E-ORG
 61-2	O
 9373-1800	O
+
+-DOCSTART-	O
 
 Rugby	O
 union-England	S-MISC
@@ -163510,6 +164914,8 @@ future	O
 "	O
 .	O
 
+-DOCSTART-	O
+
 Cricket	O
 -	O
 NZ	S-LOC
@@ -163629,6 +165035,8 @@ three	O
 one-day	O
 internationals	O
 .	O
+
+-DOCSTART-	O
 
 Soccer	O
 -	O
@@ -163789,6 +165197,8 @@ a	O
 statement	O
 .	O
 
+-DOCSTART-	O
+
 Cricket	O
 -	O
 India	S-LOC
@@ -163833,6 +165243,8 @@ tournament	O
 on	O
 Wednesday	O
 .	O
+
+-DOCSTART-	O
 
 Canada	S-LOC
 fast-tracks	O
@@ -164122,6 +165534,8 @@ Kong	E-LOC
 administration	O
 .	O
 
+-DOCSTART-	O
+
 Ivorian	S-MISC
 journalist	O
 held	O
@@ -164371,6 +165785,8 @@ public	O
 order	O
 .	O
 
+-DOCSTART-	O
+
 Village	O
 attack	O
 kills	O
@@ -164553,6 +165969,8 @@ budget	O
 spending	O
 .	O
 
+-DOCSTART-	O
+
 Aid	O
 agency	O
 says	O
@@ -164619,6 +166037,8 @@ to	O
 be	O
 sure	O
 .	O
+
+-DOCSTART-	O
 
 Zambia	S-LOC
 's	O
@@ -164713,6 +166133,8 @@ over	O
 from	O
 Shimaponda	S-PER
 .	O
+
+-DOCSTART-	O
 
 Guinea	S-LOC
 launches	O
@@ -164966,6 +166388,8 @@ Guinean	S-MISC
 francs	O
 )	O
 
+-DOCSTART-	O
+
 New	O
 Liberia	B-ORG
 Council	E-ORG
@@ -165196,6 +166620,8 @@ Liberia	S-LOC
 in	O
 1847	O
 .	O
+
+-DOCSTART-	O
 
 Nigeria	S-LOC
 rights	O
@@ -165439,6 +166865,8 @@ pleas	O
 for	O
 clemency	O
 .	O
+
+-DOCSTART-	O
 
 Dutroux	S-PER
 suspected	O
@@ -165919,6 +167347,8 @@ year	O
 ago	O
 .	O
 
+-DOCSTART-	O
+
 Knifeman	O
 kills	O
 Polish	S-MISC
@@ -166120,6 +167550,8 @@ to	O
 kill	O
 Kotlarska	S-PER
 .	O
+
+-DOCSTART-	O
 
 Russian	S-MISC
 shares	O
@@ -166493,6 +167925,8 @@ Newsroom	E-ORG
 941	O
 8520	O
 
+-DOCSTART-	O
+
 Albania	S-LOC
 asks	O
 Greece	S-LOC
@@ -166610,6 +168044,8 @@ two	O
 Balkan	S-LOC
 neighbours	O
 .	O
+
+-DOCSTART-	O
 
 Bulgarians	S-MISC
 recover	O
@@ -166763,6 +168199,8 @@ Newsroom	E-ORG
 )	O
 981	O
 8569	O
+
+-DOCSTART-	O
 
 German	S-MISC
 chancellor	O
@@ -166927,6 +168365,8 @@ have	O
 been	O
 killed	O
 .	O
+
+-DOCSTART-	O
 
 Exiled	O
 Bosnians	S-MISC
@@ -167586,6 +169026,8 @@ shown	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Estonia	S-LOC
 presidential	O
 race	O
@@ -167784,6 +169226,8 @@ before	O
 the	O
 parliament	O
 .	O
+
+-DOCSTART-	O
 
 Lebed	S-PER
 likely	O
@@ -168158,6 +169602,8 @@ and	O
 1980s	O
 .	O
 
+-DOCSTART-	O
+
 Romania	S-LOC
 state	O
 budget	O
@@ -168425,6 +169871,8 @@ Newsroom	E-ORG
 40-1	O
 3120264	O
 
+-DOCSTART-	O
+
 Costa	B-LOC
 Rica	E-LOC
 says	O
@@ -168679,6 +170127,8 @@ with	O
 the	O
 matter	O
 .	O
+
+-DOCSTART-	O
 
 Gov't	O
 dodging	O
@@ -168953,6 +170403,8 @@ drug	O
 lords	O
 .	O
 
+-DOCSTART-	O
+
 Quake	O
 shakes	O
 Costa	B-LOC
@@ -169145,6 +170597,8 @@ witnesses	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 Barrier	O
 removed	O
 to	O
@@ -169258,6 +170712,8 @@ Schomberg	E-PER
 Brasilia	S-LOC
 newsroom	O
 55-61-2230358	O
+
+-DOCSTART-	O
 
 RTRS	S-ORG
 -	O
@@ -169385,6 +170841,8 @@ newsroom	O
 61-2	O
 9373-1800	O
 
+-DOCSTART-	O
+
 Briton	S-MISC
 held	O
 in	O
@@ -169500,6 +170958,8 @@ to	O
 life	O
 imprisonment	O
 .	O
+
+-DOCSTART-	O
 
 PLO	B-ORG
 Council	E-ORG
@@ -169737,6 +171197,8 @@ peace	O
 deals	O
 .	O
 
+-DOCSTART-	O
+
 Iraqi	B-MISC
 Kurd	E-MISC
 group	O
@@ -169924,6 +171386,8 @@ endorse	O
 it	O
 publicly	O
 .	O
+
+-DOCSTART-	O
 
 Kurd	S-MISC
 group	O
@@ -170164,6 +171628,8 @@ in	O
 southern	O
 Turkey	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Iraq	S-LOC
 says	O
@@ -170428,6 +171894,8 @@ along	O
 including	O
 children	O
 .	O
+
+-DOCSTART-	O
 
 Dole	S-PER
 blasts	O
@@ -171171,6 +172639,8 @@ Wilson	S-PER
 said	O
 .	O
 
+-DOCSTART-	O
+
 BALANCE-Water	B-MISC
 Dist	I-MISC
 1	E-MISC
@@ -171322,6 +172792,8 @@ Municipal	I-ORG
 Desk	E-ORG
 ,	O
 212-859-1650	O
+
+-DOCSTART-	O
 
 CME	S-ORG
 lumber	O
@@ -171522,6 +172994,8 @@ tbf	O
 Jerry	B-PER
 Bieszk	E-PER
 312-408-8725	O
+
+-DOCSTART-	O
 
 WHEAT--Rains	O
 boost	O
@@ -172066,6 +173540,8 @@ Frost	E-PER
 816	O
 561-8671	O
 
+-DOCSTART-	O
+
 First	B-ORG
 Union	I-ORG
 National	I-ORG
@@ -172265,6 +173741,8 @@ the	O
 bank	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Amoco	S-ORG
 says	O
@@ -172490,6 +173968,8 @@ Desk	E-ORG
 212	O
 859	O
 1633	O
+
+-DOCSTART-	O
 
 Burundi	S-LOC
 defends	O
@@ -173094,6 +174574,8 @@ humanitarian	O
 intervention	O
 .	O
 
+-DOCSTART-	O
+
 Swiss	S-MISC
 arrest	O
 Rwandan	S-MISC
@@ -173178,6 +174660,8 @@ the	O
 man	O
 .	O
 
+-DOCSTART-	O
+
 OPTIONS	O
 --	O
 EOE	S-ORG
@@ -173257,6 +174741,8 @@ newsdesk	O
 Fax	O
 020-504-5040	O
 )	O
+
+-DOCSTART-	O
 
 French	S-MISC
 tax	O
@@ -173358,6 +174844,8 @@ the	O
 official	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Swiss	S-MISC
 bond	O
@@ -173630,6 +175118,8 @@ Editorial	E-ORG
 1	O
 631	O
 7340	O
+
+-DOCSTART-	O
 
 Anti-Bhutto	S-MISC
 rally	O
@@ -174034,6 +175524,8 @@ five-year	O
 term	O
 .	O
 
+-DOCSTART-	O
+
 India	S-LOC
 ACC	S-ORG
 Apr-Jul	O
@@ -174318,6 +175810,8 @@ newsroom	O
 +91-22-265	O
 9000	O
 
+-DOCSTART-	O
+
 Belgium	S-LOC
 bank	O
 sanctions	O
@@ -174521,6 +176015,8 @@ Bombay	S-LOC
 newsroom	O
 +91-22-265	O
 9000	O
+
+-DOCSTART-	O
 
 India	S-LOC
 fishermen	O
@@ -175048,6 +176544,8 @@ pomfret-rich	O
 waters	O
 .	O
 
+-DOCSTART-	O
+
 Indian	S-MISC
 cotton	O
 trade	O
@@ -175137,6 +176635,8 @@ Bombay	B-ORG
 Commodities	E-ORG
 +91-22-265	O
 9000	O
+
+-DOCSTART-	O
 
 VW	S-ORG
 sees	O
@@ -175269,6 +176769,8 @@ Newsroom	E-ORG
 +49	O
 69	O
 756525	O
+
+-DOCSTART-	O
 
 MILTIADIS	B-PER
 EVERT	E-PER
@@ -175466,6 +176968,8 @@ Athens	B-ORG
 Newsroom	E-ORG
 +301	O
 3311812-4	O
+
+-DOCSTART-	O
 
 Dow	S-MISC
 pushes	O
@@ -176217,6 +177721,8 @@ $	O
 Sterling	O
 )	O
 
+-DOCSTART-	O
+
 AEI	S-ORG
 's	O
 Spanish	S-MISC
@@ -176295,6 +177801,8 @@ Fax+44	O
 171	O
 542	O
 5017	O
+
+-DOCSTART-	O
 
 Arafat	S-PER
 says	O
@@ -176986,6 +178494,8 @@ in	O
 Hebron	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Turkey	S-LOC
 's	O
 Ciller	S-PER
@@ -177116,6 +178626,8 @@ in	O
 August	O
 .	O
 
+-DOCSTART-	O
+
 Italian	S-MISC
 prime	O
 minister	O
@@ -177241,6 +178753,8 @@ Akbel	S-PER
 said	O
 .	O
 
+-DOCSTART-	O
+
 Turkey	S-LOC
 says	O
 25	O
@@ -177364,6 +178878,8 @@ southeastern	O
 Turkey	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Israel	S-LOC
 's	O
 Levy	S-PER
@@ -177424,6 +178940,8 @@ Netanyahu	E-PER
 's	O
 government	O
 .	O
+
+-DOCSTART-	O
 
 FSA	S-ORG
 qualifies	O
@@ -177544,6 +179062,8 @@ Desk	E-ORG
 ,	O
 212-859-1650	O
 
+-DOCSTART-	O
+
 Colo	B-LOC
 .	E-LOC
 
@@ -177626,6 +179146,8 @@ Sale	O
 Date	O
 :	O
 08/26/96	O
+
+-DOCSTART-	O
 
 Lamm	S-PER
 will	O
@@ -177794,6 +179316,8 @@ this	O
 month	O
 .	O
 
+-DOCSTART-	O
+
 RESEARCH	O
 ALERT	O
 -	O
@@ -177846,6 +179370,8 @@ at	O
 35-7/8	O
 .	O
 
+-DOCSTART-	O
+
 Northern	B-ORG
 States	I-ORG
 Power	I-ORG
@@ -177881,6 +179407,8 @@ Chicago	S-LOC
 newsdesk	O
 312	O
 408-8787	O
+
+-DOCSTART-	O
 
 US	S-LOC
 investors	O
@@ -178547,6 +180075,8 @@ he	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 German	S-MISC
 police	O
 made	O
@@ -178669,6 +180199,8 @@ in	O
 public	O
 .	O
 
+-DOCSTART-	O
+
 Gun-wielding	O
 motorist	O
 snapped	O
@@ -178786,6 +180318,8 @@ and	O
 threatening	O
 behaviour	O
 .	O
+
+-DOCSTART-	O
 
 German	S-MISC
 prosecutors	O
@@ -179027,6 +180561,8 @@ order	O
 forms	O
 .	O
 
+-DOCSTART-	O
+
 France	S-LOC
 's	O
 Juppe	S-PER
@@ -179138,6 +180674,8 @@ yes	O
 Reppas	S-PER
 said	O
 .	O
+
+-DOCSTART-	O
 
 Stork	S-ORG
 H1	O
@@ -179268,6 +180806,8 @@ Fax	O
 20	O
 504	O
 5040	O
+
+-DOCSTART-	O
 
 Stephanie	S-PER
 of	O
@@ -179564,6 +181104,8 @@ sound-track	O
 existed	O
 .	O
 
+-DOCSTART-	O
+
 Highlights	O
 of	O
 Wednesday	O
@@ -179764,6 +181306,8 @@ production	O
 figures	O
 .	O
 
+-DOCSTART-	O
+
 Spanish	S-MISC
 tomato	O
 warriors	O
@@ -179911,6 +181455,8 @@ of	O
 them	O
 foreigners	O
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -180225,6 +181771,8 @@ Newsroom	E-ORG
 +301	O
 3311812-4	O
 
+-DOCSTART-	O
+
 HOEK	B-ORG
 LOOS	E-ORG
 H1	O
@@ -180313,6 +181861,8 @@ Fax	O
 20	O
 504	O
 5040	O
+
+-DOCSTART-	O
 
 Stagecoach	S-ORG
 sees	O
@@ -180445,6 +181995,8 @@ Newsroom	E-ORG
 171	O
 542	O
 7717	O
+
+-DOCSTART-	O
 
 NZ	S-LOC
 bills	O
@@ -180645,6 +182197,8 @@ newsroom	O
 )	O
 473	O
 4746	O
+
+-DOCSTART-	O
 
 RTRS	S-ORG
 -	O
@@ -180891,6 +182445,8 @@ Newsroom	E-ORG
 61-2	O
 9373-1800	O
 
+-DOCSTART-	O
+
 RTRS	S-ORG
 -	O
 Newcrest	B-ORG
@@ -181008,6 +182564,8 @@ A$	S-MISC
 per	O
 ounce	O
 .	O
+
+-DOCSTART-	O
 
 RTRS	S-ORG
 -	O
@@ -181426,6 +182984,8 @@ killing	O
 people	O
 .	O
 
+-DOCSTART-	O
+
 Shanghai	B-ORG
 Ek	I-ORG
 Chor	E-ORG
@@ -181610,6 +183170,8 @@ two	O
 million	O
 units	O
 .	O
+
+-DOCSTART-	O
 
 Khmer	B-ORG
 Rouge	E-ORG
@@ -181882,6 +183444,8 @@ in	O
 command	O
 .	O
 
+-DOCSTART-	O
+
 Two	O
 dead	O
 in	O
@@ -182006,6 +183570,8 @@ a	O
 rain	O
 storm	O
 .	O
+
+-DOCSTART-	O
 
 MOF	S-ORG
 's	O
@@ -182305,6 +183871,8 @@ he	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 China	S-LOC
 says	O
 militant	O
@@ -182533,6 +184101,8 @@ War	I-MISC
 Two	E-MISC
 atrocities	O
 .	O
+
+-DOCSTART-	O
 
 Japan	S-LOC
 coalition	O
@@ -182970,6 +184540,8 @@ early	O
 October	O
 .	O
 
+-DOCSTART-	O
+
 Liu	B-ORG
 Chong	I-ORG
 Hing	E-ORG
@@ -183079,6 +184651,8 @@ Newsroom	E-ORG
 )	O
 2843	O
 6368	O
+
+-DOCSTART-	O
 
 Fire	O
 bomb	O
@@ -183204,6 +184778,8 @@ on	O
 those	O
 responsible	O
 .	O
+
+-DOCSTART-	O
 
 Shanghai	S-LOC
 novelist	O
@@ -183369,6 +184945,8 @@ he	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 Hwa	B-PER
 Kay	E-PER
 plunges	O
@@ -183471,6 +185049,8 @@ a	O
 local	O
 brokerage	O
 .	O
+
+-DOCSTART-	O
 
 Japan	S-LOC
 July	O
@@ -183590,6 +185170,8 @@ Desk	E-ORG
 3432	O
 6179	O
 )	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -183857,6 +185439,8 @@ newsroom	O
 2843	O
 6441	O
 
+-DOCSTART-	O
+
 Palestinian	B-ORG
 Authority	E-ORG
 frees	O
@@ -184027,6 +185611,8 @@ to	O
 Qidra	S-PER
 .	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -184153,6 +185739,8 @@ during	O
 struggle	O
 for	O
 presidency	O
+
+-DOCSTART-	O
 
 Iran	S-LOC
 asks	O
@@ -184410,6 +185998,8 @@ as	O
 president	O
 .	O
 
+-DOCSTART-	O
+
 NATO	S-ORG
 military	O
 chiefs	O
@@ -184545,6 +186135,8 @@ Netherlands	S-LOC
 .	O
 
 REUTER	S-PER
+
+-DOCSTART-	O
 
 ISS	S-ORG
 says	O
@@ -184824,6 +186416,8 @@ Copenhagen	S-LOC
 newsroom	O
 +45	O
 33969650	O
+
+-DOCSTART-	O
 
 Iraq	S-LOC
 balks	O
@@ -185337,6 +186931,8 @@ percent	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 OFFICIAL	B-ORG
 JOURNAL	E-ORG
 CONTENTS	O
@@ -185593,6 +187189,8 @@ END	O
 OF	O
 DOCUMENT	O
 .	O
+
+-DOCSTART-	O
 
 EU	B-ORG
 Commission	E-ORG
@@ -186107,6 +187705,8 @@ BSE-infected	S-MISC
 beef	O
 .	O
 
+-DOCSTART-	O
+
 French	S-MISC
 farmers	O
 set	O
@@ -186242,6 +187842,8 @@ Disease	E-MISC
 CJD	S-MISC
 )	O
 .	O
+
+-DOCSTART-	O
 
 GOLF	S-LOC
 -	O
@@ -186530,6 +188132,8 @@ Affleck	S-PER
 73	O
 .	O
 
+-DOCSTART-	O
+
 CYCLING	O
 -	O
 SORENSEN	S-PER
@@ -186781,6 +188385,8 @@ to	O
 Venray	S-LOC
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -186842,6 +188448,8 @@ Atherton	E-PER
 65	O
 )	O
 .	O
+
+-DOCSTART-	O
 
 CYCLING	O
 -	O
@@ -187111,6 +188719,8 @@ Russia	S-LOC
 12.434	O
 /	O
 12.177).	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -187456,6 +189066,8 @@ ran	O
 out	O
 .	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -187766,6 +189378,8 @@ Bridge	E-LOC
 Nottingham	S-LOC
 )	O
 
+-DOCSTART-	O
+
 LOMBARDI	S-PER
 WINS	O
 THIRD	O
@@ -188001,6 +189615,8 @@ Doetinchem-Doetinchem	S-MISC
 time	O
 trial	O
 
+-DOCSTART-	O
+
 CRICKET	O
 -	O
 ENGLAND	S-LOC
@@ -188119,6 +189735,8 @@ Ata-ur-Rehman	S-PER
 Saqlain	B-PER
 Mushtaq	E-PER
 .	O
+
+-DOCSTART-	O
 
 CRICKET	O
 -	O
@@ -188335,6 +189953,8 @@ out	O
 )	O
 .	O
 
+-DOCSTART-	O
+
 RUGBY	B-ORG
 UNION	E-ORG
 -	O
@@ -188428,6 +190048,8 @@ end	O
 of	O
 March	O
 .	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -188556,6 +190178,8 @@ the	O
 Berlin	S-LOC
 Olympics	S-MISC
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -188737,6 +190361,8 @@ next	O
 January	O
 .	O
 
+-DOCSTART-	O
+
 BASKETBALL	O
 -	O
 OLYMPIAKOS	S-ORG
@@ -188824,6 +190450,8 @@ Partizan	S-ORG
 v	O
 Olympiakos	S-ORG
 .	O
+
+-DOCSTART-	O
 
 SQUASH	O
 -	O
@@ -188998,6 +190626,8 @@ Pakistan	S-LOC
 15-4	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 RESULTS	O
@@ -189150,6 +190780,8 @@ Chonbuk	S-ORG
 2	O
 5	O
 0	O
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -189310,6 +190942,8 @@ OB	S-ORG
 61	O
 .413	O
 20	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -189907,6 +191541,8 @@ Spain	S-LOC
 6-4	O
 6-4	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -190222,6 +191858,8 @@ FLORIDA	S-ORG
 AT	O
 ST	B-LOC
 LOUIS	E-LOC
+
+-DOCSTART-	O
 
 BASEBALL	O
 -	O
@@ -190723,6 +192361,8 @@ In	O
 Seattle	S-LOC
 ,	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 MAJOR	B-MISC
@@ -190851,6 +192491,8 @@ SEATTLE	S-ORG
 New	B-ORG
 York	E-ORG
 2	O
+
+-DOCSTART-	O
 
 TENNIS	O
 -	O
@@ -191281,6 +192923,8 @@ fast	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 BASEBALL	O
 -	O
 BRAVES	S-ORG
@@ -191442,6 +193086,8 @@ fifth	O
 post-season	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 DUTCH	S-MISC
@@ -191489,6 +193135,8 @@ Halftime	O
 Attendance	O
 10,760	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -191787,6 +193435,8 @@ Volendam	S-ORG
 2	O
 7	O
 1	O
+
+-DOCSTART-	O
 
 ATHLETICS	O
 -	O
@@ -192241,6 +193891,8 @@ Brussels	S-LOC
 meeting	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 GENOA	S-ORG
@@ -192354,6 +194006,8 @@ last	O
 season	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 NICE	S-ORG
@@ -192456,6 +194110,8 @@ the	O
 table	O
 .	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 THREE	O
@@ -192547,6 +194203,8 @@ for	O
 midfielder	O
 Witschge	S-PER
 .	O
+
+-DOCSTART-	O
 
 BRITAIN	S-LOC
 WELCOMES	O
@@ -192715,6 +194373,8 @@ statement	O
 said	O
 .	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 EMBASSY	S-MISC
 IN	O
@@ -192783,6 +194443,8 @@ Athens	B-ORG
 Newsroom	E-ORG
 +301	O
 3311812-4	O
+
+-DOCSTART-	O
 
 ND	S-ORG
 PARTY	O
@@ -192866,6 +194528,8 @@ Athens	B-ORG
 Newsroom	E-ORG
 +301	O
 3311812-4	O
+
+-DOCSTART-	O
 
 Rugby	O
 star	O
@@ -192999,6 +194663,8 @@ just	O
 friends	O
 .	O
 
+-DOCSTART-	O
+
 London	S-LOC
 LIFFE	S-ORG
 futures	O
@@ -193108,6 +194774,8 @@ SEP	O
 3,894.00	O
 3,894.00	O
 3,941.50	O
+
+-DOCSTART-	O
 
 Zaire	S-LOC
 installs	O
@@ -193371,6 +195039,8 @@ elected	O
 without	O
 opposition	O
 .	O
+
+-DOCSTART-	O
 
 Nigeria	S-LOC
 would	O
@@ -193670,6 +195340,8 @@ the	O
 visit	O
 .	O
 
+-DOCSTART-	O
+
 Dutch	S-MISC
 Queen	O
 Beatrix	S-PER
@@ -193768,6 +195440,8 @@ October	O
 visit	O
 .	O
 
+-DOCSTART-	O
+
 Senegal	S-LOC
 bans	O
 guns	O
@@ -193859,6 +195533,8 @@ and	O
 foreign	O
 residents	O
 .	O
+
+-DOCSTART-	O
 
 Chad	S-LOC
 parliamentary	O
@@ -193994,6 +195670,8 @@ Patriotic	B-ORG
 Salvation	I-ORG
 Movement	E-ORG
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -194205,6 +195883,8 @@ newsroom	O
 21	O
 90	O
 90	O
+
+-DOCSTART-	O
 
 NATO	S-ORG
 releases	O
@@ -194449,6 +196129,8 @@ Marriner	S-PER
 said	O
 .	O
 
+-DOCSTART-	O
+
 Storm	O
 kills	O
 11	O
@@ -194532,6 +196214,8 @@ during	O
 a	O
 thunderstorm	O
 .	O
+
+-DOCSTART-	O
 
 Kornblum	S-PER
 ,	O
@@ -195003,6 +196687,8 @@ Moslem-Croat	S-MISC
 federation	O
 .	O
 
+-DOCSTART-	O
+
 Gazprom	S-ORG
 rises	O
 to	O
@@ -195293,6 +196979,8 @@ Newsroom	E-ORG
 941	O
 8520	O
 
+-DOCSTART-	O
+
 Serbian	S-MISC
 policeman	O
 shot	O
@@ -195543,6 +197231,8 @@ their	O
 culture	O
 .	O
 
+-DOCSTART-	O
+
 Viral	O
 meningitis	O
 epidemic	O
@@ -195687,6 +197377,8 @@ Africa	S-LOC
 this	O
 year	O
 .	O
+
+-DOCSTART-	O
 
 Serbia	S-LOC
 's	O
@@ -195893,6 +197585,8 @@ any	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Venezuela	S-LOC
 FinMin	O
 to	O
@@ -195971,6 +197665,8 @@ newsroom	O
 582	O
 834405	O
 
+-DOCSTART-	O
+
 Colombia	S-LOC
 police	O
 find	O
@@ -196044,6 +197740,8 @@ police	O
 spokesman	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Venezuela	S-LOC
 non-oil	O
@@ -196273,6 +197971,8 @@ newsroom	O
 834405	O
 REUTER	S-PER
 JPR	O
+
+-DOCSTART-	O
 
 Buenos	B-LOC
 Aires	E-LOC
@@ -196515,6 +198215,8 @@ next	O
 month	O
 .	O
 
+-DOCSTART-	O
+
 Brazil	S-LOC
 gov't	O
 set	O
@@ -196577,6 +198279,8 @@ meet	O
 that	O
 requirement	O
 .	O
+
+-DOCSTART-	O
 
 Mexico	S-LOC
 same-day	O
@@ -196818,6 +198522,8 @@ newroom	O
 )	O
 728	O
 9554	O
+
+-DOCSTART-	O
 
 Tension	O
 builds	O
@@ -197153,6 +198859,8 @@ democracy	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Brazil	S-LOC
 police	O
 arrest	O
@@ -197295,6 +199003,8 @@ travelled	O
 to	O
 Brazil	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Seven	O
 churches	O
@@ -197508,6 +199218,8 @@ of	O
 landless	O
 peasants	O
 .	O
+
+-DOCSTART-	O
 
 Thai	S-MISC
 official	O
@@ -197737,6 +199449,8 @@ aimed	O
 at	O
 Chinese	S-MISC
 .	O
+
+-DOCSTART-	O
 
 Thai	S-MISC
 poll	O
@@ -198062,6 +199776,8 @@ from	O
 politics	O
 .	O
 
+-DOCSTART-	O
+
 Hamas	S-ORG
 cleric	O
 jailed	O
@@ -198246,6 +199962,8 @@ freeing	O
 Yassin	S-PER
 .	O
 
+-DOCSTART-	O
+
 Moroccan	S-MISC
 King	O
 meets	O
@@ -198363,6 +200081,8 @@ Friday	O
 officials	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Scandal	O
 hits	O
@@ -199122,6 +200842,8 @@ his	O
 audience	O
 .	O
 
+-DOCSTART-	O
+
 Montana	S-LOC
 weekly	O
 muni	O
@@ -199225,6 +200947,8 @@ Municipal	I-ORG
 Desk	E-ORG
 ,	O
 212-859-1650	O
+
+-DOCSTART-	O
 
 Researchers	O
 report	O
@@ -199550,6 +201274,8 @@ human	O
 muscle	O
 tissue	O
 .	O
+
+-DOCSTART-	O
 
 Export	O
 Business	O
@@ -200250,6 +201976,8 @@ Chicago	S-LOC
 newsdesk	O
 312-408-8720--	O
 
+-DOCSTART-	O
+
 USDA	S-ORG
 gross	O
 cutout	O
@@ -200297,6 +202025,8 @@ value	O
 
 -	O
 USDA	S-ORG
+
+-DOCSTART-	O
 
 Help-wanted	O
 ad	O
@@ -200545,6 +202275,8 @@ Central	E-LOC
 region	O
 .	O
 
+-DOCSTART-	O
+
 Police	O
 seek	O
 suspects	O
@@ -200756,6 +202488,8 @@ jewelry	O
 store	O
 owner	O
 .	O
+
+-DOCSTART-	O
 
 O.J.	B-PER
 Simpson	E-PER
@@ -201245,6 +202979,8 @@ violence	O
 instead	O
 .	O
 
+-DOCSTART-	O
+
 Clinton	S-PER
 adviser	O
 Morris	S-PER
@@ -201505,6 +203241,8 @@ White	B-LOC
 House	E-LOC
 .	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 surgeon	O
 investigated	O
@@ -201685,6 +203423,8 @@ on	O
 the	O
 beach	O
 .	O
+
+-DOCSTART-	O
 
 Florida	S-LOC
 cop	O
@@ -201878,6 +203618,8 @@ back	O
 door	O
 .	O
 
+-DOCSTART-	O
+
 U.S.	B-ORG
 DLA	E-ORG
 sets	O
@@ -201919,6 +203661,8 @@ per	O
 lb	O
 yesterday	O
 .	O
+
+-DOCSTART-	O
 
 Key	O
 Clinton	S-PER
@@ -201989,6 +203733,8 @@ the	O
 White	B-LOC
 House	E-LOC
 .	O
+
+-DOCSTART-	O
 
 U.S.	S-LOC
 corn	O
@@ -202108,6 +203854,8 @@ Chicago	S-LOC
 newsdesk	O
 312-408-8720	O
 )	O
+
+-DOCSTART-	O
 
 EU	S-ORG
 barley	O
@@ -202353,6 +204101,8 @@ newsroom	O
 4221	O
 5432	O
 
+-DOCSTART-	O
+
 French	S-MISC
 shipyard	O
 workers	O
@@ -202450,6 +204200,8 @@ are	O
 at	O
 risk	O
 .	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -202933,6 +204685,8 @@ Islamabad	S-LOC
 newsroom	O
 9251-274757	O
 
+-DOCSTART-	O
+
 Salang	S-LOC
 tunnel	O
 reopened	O
@@ -203113,6 +204867,8 @@ of	O
 prisoners	O
 .	O
 
+-DOCSTART-	O
+
 Two	O
 Indians	S-MISC
 to	O
@@ -203250,6 +205006,8 @@ of	O
 three	O
 judges	O
 .	O
+
+-DOCSTART-	O
 
 Elephant	O
 tramples	O
@@ -203394,6 +205152,8 @@ convicted	O
 elephant	O
 killers	O
 .	O
+
+-DOCSTART-	O
 
 Sri	B-MISC
 Lankan	E-MISC
@@ -203624,6 +205384,8 @@ its	O
 year	O
 .	O
 
+-DOCSTART-	O
+
 Vicorp	B-ORG
 Restaurants	E-ORG
 names	O
@@ -203699,6 +205461,8 @@ Newsdesk	E-ORG
 212	O
 859	O
 1610	O
+
+-DOCSTART-	O
 
 SoCal	B-ORG
 Edison	E-ORG
@@ -203984,6 +205748,8 @@ Desk	E-ORG
 859	O
 1622	O
 
+-DOCSTART-	O
+
 Dreyfus	B-ORG
 Strategic	I-ORG
 Munis	E-ORG
@@ -204029,6 +205795,8 @@ Strategic	I-ORG
 Municipals	I-ORG
 Inc	E-ORG
 .	O
+
+-DOCSTART-	O
 
 Sierra	B-ORG
 Semiconductor	E-ORG
@@ -204499,6 +206267,8 @@ Seattle	S-LOC
 bureau	O
 206-386-4848	O
 
+-DOCSTART-	O
+
 Housecall	S-ORG
 shares	O
 sink	O
@@ -204661,6 +206431,8 @@ the	O
 quarter	O
 .	O
 
+-DOCSTART-	O
+
 First	B-ORG
 Alliance	E-ORG
 net	O
@@ -204806,6 +206578,8 @@ outstanding	O
 14,775,000	O
 14,775,000	O
 14,775,000	O
+
+-DOCSTART-	O
 
 Oasis	S-ORG
 singer	O
@@ -205046,6 +206820,8 @@ as	O
 lead	O
 singer	O
 .	O
+
+-DOCSTART-	O
 
 Slough	B-ORG
 Estates	E-ORG
@@ -205425,6 +207201,8 @@ Newsroom	E-ORG
 542	O
 7717	O
 
+-DOCSTART-	O
+
 Canada	S-LOC
 's	O
 international	O
@@ -205527,6 +207305,8 @@ Burea	E-ORG
 613	O
 )	O
 235-6745	O
+
+-DOCSTART-	O
 
 Jordanian	S-MISC
 PM	O
@@ -205685,6 +207465,8 @@ bilateral	O
 cooperation	O
 "	O
 .	O
+
+-DOCSTART-	O
 
 Iran	S-LOC
 says	O
@@ -205922,6 +207704,8 @@ on	O
 March	O
 19	O
 .	O
+
+-DOCSTART-	O
 
 Mideast	B-LOC
 Gulf	E-LOC
@@ -206461,6 +208245,8 @@ to	O
 cents	O
 .	O
 
+-DOCSTART-	O
+
 Egypt	S-LOC
 police	O
 catch	O
@@ -206568,6 +208354,8 @@ in	O
 Cairo	S-LOC
 .	O
 
+-DOCSTART-	O
+
 New	O
 U.S.	S-LOC
 ambassador	O
@@ -206671,6 +208459,8 @@ in	O
 May	O
 .	O
 
+-DOCSTART-	O
+
 Jordanian	S-MISC
 PM	O
 Kabariti	S-PER
@@ -206766,6 +208556,8 @@ earlier	O
 this	O
 month	O
 .	O
+
+-DOCSTART-	O
 
 Palestinians	S-MISC
 end	O
@@ -206897,6 +208689,8 @@ Israeli	S-MISC
 occupation	O
 .	O
 
+-DOCSTART-	O
+
 U.S.	S-LOC
 wheat	O
 weekly	O
@@ -206999,6 +208793,8 @@ Mexico	S-LOC
 and	O
 China	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Keane	S-ORG
 wins	O
@@ -207133,6 +208929,8 @@ newsroom	O
 212	O
 )	O
 859-1610	O
+
+-DOCSTART-	O
 
 PRESS	O
 DIGEST	O
@@ -207481,6 +209279,8 @@ newsroom	O
 )	O
 859-1610	O
 
+-DOCSTART-	O
+
 Baker	S-PER
 made	O
 secret	O
@@ -207649,6 +209449,8 @@ George	B-PER
 Bush	E-PER
 .	O
 
+-DOCSTART-	O
+
 Clinton	S-PER
 wins	O
 Democratic	S-MISC
@@ -207721,6 +209523,8 @@ November	O
 presidential	O
 election	O
 .	O
+
+-DOCSTART-	O
 
 Beachcomber	O
 finds	O
@@ -207898,6 +209702,8 @@ caused	O
 the	O
 crash	O
 .	O
+
+-DOCSTART-	O
 
 FEATURE	O
 -	O
@@ -208718,6 +210524,8 @@ masturbation	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 Clinton	S-PER
 arrives	O
 in	O
@@ -208779,6 +210587,8 @@ train	O
 from	O
 Washington	S-LOC
 .	O
+
+-DOCSTART-	O
 
 New	O
 bomb	O
@@ -209253,6 +211063,8 @@ the	O
 government	O
 .	O
 
+-DOCSTART-	O
+
 Sweden	S-LOC
 's	O
 OM	S-ORG
@@ -209617,6 +211429,8 @@ newsroom	O
 +46-8-700	O
 1006	O
 
+-DOCSTART-	O
+
 Amsterdam-Rotterdam-Antwerp	S-LOC
 oil	O
 stock	O
@@ -209800,6 +211614,8 @@ newsroom	O
 504	O
 5000	O
 
+-DOCSTART-	O
+
 German	S-MISC
 anti-nuclear	O
 activists	O
@@ -209915,6 +211731,8 @@ train	O
 and	O
 truck	O
 .	O
+
+-DOCSTART-	O
 
 Italy	S-LOC
 police	O
@@ -210105,6 +211923,8 @@ and	O
 killed	O
 .	O
 
+-DOCSTART-	O
+
 Thieves	O
 make	O
 off	O
@@ -210214,6 +212034,8 @@ Ireland	S-LOC
 southwest	O
 coast	O
 .	O
+
+-DOCSTART-	O
 
 Italians	S-MISC
 hold	O
@@ -210370,6 +212192,8 @@ police	O
 official	O
 said	O
 .	O
+
+-DOCSTART-	O
 
 Bodies	O
 found	O
@@ -210622,6 +212446,8 @@ the	O
 1920s	O
 .	O
 
+-DOCSTART-	O
+
 Galeforce	O
 winds	O
 and	O
@@ -210866,6 +212692,8 @@ to	O
 materialise	O
 .	O
 
+-DOCSTART-	O
+
 Repsol	S-ORG
 shares	O
 up	O
@@ -211028,6 +212856,8 @@ Newsroom	E-ORG
 585	O
 2161	O
 
+-DOCSTART-	O
+
 Algeria	S-LOC
 forces	O
 kill	O
@@ -211160,6 +212990,8 @@ a	O
 commanding	O
 lead	O
 .	O
+
+-DOCSTART-	O
 
 Finns	S-MISC
 hold	O
@@ -211347,6 +213179,8 @@ Iltalehti	S-ORG
 said	O
 .	O
 
+-DOCSTART-	O
+
 Audi	S-ORG
 CEO	O
 says	O
@@ -211483,6 +213317,8 @@ Newsroom	E-ORG
 +49	O
 69	O
 756525	O
+
+-DOCSTART-	O
 
 KEKKILA	S-ORG
 SEES	O
@@ -211621,6 +213457,8 @@ Newsroom	E-ORG
 680	O
 50	O
 245	O
+
+-DOCSTART-	O
 
 INTERVIEW-T&N	S-MISC
 untroubled	O
@@ -212158,6 +213996,8 @@ Newsroom	E-ORG
 542	O
 8716	O
 
+-DOCSTART-	O
+
 Earthquake	O
 jolts	O
 New	B-MISC
@@ -212271,6 +214111,8 @@ Britain	S-LOC
 or	O
 Japan	S-LOC
 .	O
+
+-DOCSTART-	O
 
 Hong	B-LOC
 Kong	E-LOC
@@ -212842,6 +214684,8 @@ under	O
 China	S-LOC
 .	O
 
+-DOCSTART-	O
+
 Taiwan	S-LOC
 dollar	O
 ends	O
@@ -212974,6 +214818,8 @@ Liu	E-PER
 (	O
 2-5080815	O
 )	O
+
+-DOCSTART-	O
 
 SIMEX	B-MISC
 Nikkei	E-MISC
@@ -213120,6 +214966,8 @@ Doreen	B-PER
 Siow	E-PER
 65-8703092	O
 
+-DOCSTART-	O
+
 Siam	B-ORG
 Commercial	E-ORG
 wins	O
@@ -213259,6 +215107,8 @@ newsroom	O
 )	O
 652-0642	O
 
+-DOCSTART-	O
+
 M'bishi	B-ORG
 Gas	E-ORG
 sets	O
@@ -213359,6 +215209,8 @@ JBRI	O
 A	O
 LAST	O
 NIS	O
+
+-DOCSTART-	O
 
 S.	B-LOC
 Korea	E-LOC
@@ -213503,6 +215355,8 @@ Newsroom	E-ORG
 727	O
 5644	O
 
+-DOCSTART-	O
+
 Salomon	B-ORG
 &	I-ORG
 Taylor	E-ORG
@@ -213570,6 +215424,8 @@ sells	O
 ski	O
 equipment	O
 .	O
+
+-DOCSTART-	O
 
 Indonesia	S-LOC
 plays	O
@@ -213765,6 +215621,8 @@ stepped	O
 up	O
 .	O
 
+-DOCSTART-	O
+
 Airport	B-ORG
 Facilities	E-ORG
 -	O
@@ -213845,6 +215703,8 @@ Osaka	S-LOC
 )	O
 airports	O
 .	O
+
+-DOCSTART-	O
 
 HK	S-LOC
 civil	O
@@ -214148,6 +216008,8 @@ September	O
 14	O
 .	O
 
+-DOCSTART-	O
+
 Singapore	B-ORG
 Refining	I-ORG
 Company	E-ORG
@@ -214375,6 +216237,8 @@ Newsroom	E-ORG
 +65-8703086	O
 )	O
 
+-DOCSTART-	O
+
 Loxley	S-ORG
 H1	O
 net	O
@@ -214454,6 +216318,8 @@ Plc	E-ORG
 Bangkok	S-LOC
 newsroom	O
 662-252-9950	O
+
+-DOCSTART-	O
 
 INDICATORS	O
 -	O
@@ -214948,6 +216814,8 @@ Index	E-MISC
 )	O
 .	O
 
+-DOCSTART-	O
+
 PRESS	O
 DIGEST	O
 -	O
@@ -215083,6 +216951,8 @@ scene	O
 for	O
 budget	O
 negotiations	O
+
+-DOCSTART-	O
 
 Lenzing	S-ORG
 expects	O
@@ -215233,6 +217103,8 @@ newsroom	O
 +431	O
 53112	O
 274	O
+
+-DOCSTART-	O
 
 Algeria	S-LOC
 faults	O
@@ -215559,6 +217431,8 @@ commanding	O
 lead	O
 .	O
 
+-DOCSTART-	O
+
 OFFICIAL	B-ORG
 JOURNAL	E-ORG
 CONTENTS	O
@@ -215616,6 +217490,8 @@ END	O
 OF	O
 DOCUMENT	O
 .	O
+
+-DOCSTART-	O
 
 Wall	B-LOC
 Street	E-LOC
@@ -216270,6 +218146,8 @@ again	O
 .	O
 "	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 AUSTRIA	S-LOC
@@ -216333,6 +218211,8 @@ Attendance	O
 :	O
 800	O
 
+-DOCSTART-	O
+
 SOCCER	O
 -	O
 WALES	S-LOC
@@ -216394,6 +218274,8 @@ Young	E-PER
 Attendance	O
 :	O
 1,800	O
+
+-DOCSTART-	O
 
 CYCLING	O
 -	O
@@ -216693,6 +218575,8 @@ disappointing	O
 10th	O
 .	O
 
+-DOCSTART-	O
+
 CYCLING	O
 -	O
 WORLD	O
@@ -216905,6 +218789,8 @@ Lancien	E-PER
 France	S-LOC
 )	O
 8	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
@@ -217212,6 +219098,8 @@ Aberdeen	S-ORG
 .	O
 "	O
 
+-DOCSTART-	O
+
 MOTORCYCLING	O
 -	O
 SAN	B-LOC
@@ -217336,6 +219224,8 @@ Japan	S-LOC
 )	O
 Honda	S-ORG
 1:51.857	O
+
+-DOCSTART-	O
 
 GOLF	O
 -	O
@@ -217623,6 +219513,8 @@ Gilford	E-PER
 74	O
 77	O
 .	O
+
+-DOCSTART-	O
 
 SOCCER	O
 -	O
