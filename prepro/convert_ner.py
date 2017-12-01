@@ -20,7 +20,7 @@ def load_original_data(filename):
             line = line.strip()
             if len(line) > 0:
                 array = line.split('\t')
-                if len(array) != NUM_FIELD or array[0] == DOC_START_TOKEN:
+                if len(array) != NUM_FIELD:
                     continue
                 else:
                     cached_lines.append(line)
