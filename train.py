@@ -44,9 +44,7 @@ parser.add_argument('--batch_size', type=int, default=25)
 parser.add_argument('--max_grad_norm', type=float, default=5.0, help='Gradient clipping.')
 parser.add_argument('--log_step', type=int, default=20, help='Print log every k steps.')
 parser.add_argument('--log', type=str, default='logs.txt', help='Write training log to file.')
-parser.add_argument('--save_epoch', type=int, default=5, help='Save model checkpoints every k epochs.')
-parser.add_argument('--save_best_only', dest='save_best_only', action='store_true', help='Save best model only.')
-parser.set_defaults(save_best_only=True)
+parser.add_argument('--save_epoch', type=int, default=500, help='Save model checkpoints every k epochs.')
 parser.add_argument('--save_dir', type=str, default='./saved_models', help='Root dir for saving models.')
 parser.add_argument('--id', type=str, default='00', help='Model ID under which to save models.')
 parser.add_argument('--info', type=str, default='', help='Optional info for the experiment.')
@@ -96,6 +94,7 @@ helper.ensure_dir(model_save_dir, verbose=True)
 # save config
 helper.save_config(opt, model_save_dir + '/config.json', verbose=True)
 vocab.save(model_save_dir + '/vocab.pkl')
+char_vocab.save(model_save_dir + '/char_vocab.pkl')
 file_logger = helper.FileLogger(model_save_dir + '/' + opt['log'], header="# epoch\ttrain_loss\tdev_loss\tdev_f1\tbest_dev_f1")
 
 # print model info
@@ -134,7 +133,7 @@ for epoch in range(1, opt['num_epoch']+1):
         predictions += preds
         dev_loss += loss
     predictions = [[id2label[p] for p in ps] for ps in predictions]
-    dev_p, dev_r, dev_f1 = scorer.score_by_chunk(dev_batch.gold(), predictions)
+    dev_p, dev_r, dev_f1 = scorer.score_by_chunk(dev_batch.gold(), predictions, scheme=opt['scheme'])
     
     train_loss = train_loss / train_batch.num_examples * opt['batch_size'] # avg loss per batch
     dev_loss = dev_loss / dev_batch.num_examples * opt['batch_size']
@@ -149,7 +148,7 @@ for epoch in range(1, opt['num_epoch']+1):
     if epoch == 1 or dev_f1 > max(dev_f1_history):
         shutil.copyfile(model_file, model_save_dir + '/best_model.pt')
         print("new best model saved.")
-    if opt['save_best_only'] or epoch % opt['save_epoch'] != 0:
+    if epoch % opt['save_epoch'] != 0:
         os.remove(model_file)
     
     # lr schedule

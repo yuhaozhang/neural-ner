@@ -26,12 +26,14 @@ class DataLoader(object):
 
         with open(filename) as infile:
             data = json.load(infile)
+        self.raw_data = data
         data = self.preprocess(data, opt)
         # shuffle for training
         if not evaluation:
             indices = list(range(len(data)))
             random.shuffle(indices)
             data = [data[i] for i in indices]
+            self.raw_data = [self.raw_data[i] for i in indices]
         self.id2label = dict([(v,k) for k,v in self.label2id.items()])
         self.labels = [[self.id2label[lid] for lid in d[-1]] for d in data]
         self.num_examples = len(data)
@@ -56,6 +58,10 @@ class DataLoader(object):
 
     def gold(self):
         return self.labels
+
+    def words(self):
+        words = [d['token'] for d in self.raw_data]
+        return words
 
     def __len__(self):
         return len(self.data)
