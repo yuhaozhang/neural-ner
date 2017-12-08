@@ -18,9 +18,10 @@ class BLSTM_CRF(nn.Module):
         self.drop = nn.Dropout(opt['dropout'])
         # word embedding matrix
         self.emb = nn.Embedding(opt['vocab_size'], opt['emb_dim'], padding_idx=0)
-        self.char_layer = layers.CharLayer(opt, type='rnn')
+        self.char_layer = layers.CharRNNLayer(opt) if opt['char_type'] == 'rnn' else \
+                layers.CharCNNLayer(opt)
 
-        input_size = opt['emb_dim'] + opt['char_hidden_dim']*2
+        input_size = opt['emb_dim'] + self.char_layer.out_dim
         self.lstm = nn.LSTM(input_size, opt['hidden_dim'], opt['num_layers'], batch_first=True, \
                 dropout=opt['dropout'], bidirectional=True)
         self.linear = nn.Linear(opt['hidden_dim']*2, opt['num_class'])

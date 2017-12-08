@@ -33,8 +33,14 @@ parser.set_defaults(lower=False)
 parser.add_argument('--crf', action='store_true')
 parser.add_argument('--scheme', type=str, default='iob', help='Either iob or iobes.')
 
-parser.add_argument('--char_emb_dim', type=int, default=20, help='Char embedding dimension.')
-parser.add_argument('--char_hidden_dim', type=int, default=50, help='Char layer hidden dimension.')
+parser.add_argument('--char_type', type=str, default='cnn', help='Character model, rnn or cnn.')
+parser.add_argument('--char_emb_dim', type=int, default=25, help='Char embedding dimension.')
+parser.add_argument('--char_hidden_dim', type=int, default=25, help='Char RNN layer hidden dimension.')
+# char cnn param
+parser.add_argument('--char_fmin', type=int, default=2, help='CNN min filter width.')
+parser.add_argument('--char_fmax', type=int, default=5, help='CNN max filter width.')
+parser.add_argument('--char_fsize', type=int, default=50, help='CNN num of filters for each width.')
+parser.add_argument('--char_cnn_dim', type=int, default=50, help='Char CNN layer output dim.')
 
 parser.add_argument('--lr', type=float, default=1.0, help='Applies to SGD and Adagrad.')
 parser.add_argument('--lr_decay', type=float, default=0.9)
