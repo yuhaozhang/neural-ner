@@ -44,6 +44,7 @@ parser.add_argument('--char_cnn_dim', type=int, default=50, help='Char CNN layer
 
 parser.add_argument('--lr', type=float, default=1.0, help='Applies to SGD and Adagrad.')
 parser.add_argument('--lr_decay', type=float, default=0.9)
+parser.add_argument('--decay_epoch', type=int, default=30, help="Delay lr after this epoch.")
 parser.add_argument('--optim', type=str, default='sgd', help='sgd, adagrad, adam or adamax.')
 parser.add_argument('--num_epoch', type=int, default=100)
 parser.add_argument('--batch_size', type=int, default=25)
@@ -158,7 +159,7 @@ for epoch in range(1, opt['num_epoch']+1):
         os.remove(model_file)
     
     # lr schedule
-    if len(dev_f1_history) > 30 and dev_f1 <= dev_f1_history[-1] and \
+    if len(dev_f1_history) > opt['decay_epoch'] and dev_f1 <= dev_f1_history[-1] and \
             opt['optim'] in ['sgd', 'adagrad']:
         current_lr *= opt['lr_decay']
         trainer.update_lr(current_lr)
