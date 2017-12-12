@@ -25,9 +25,6 @@ class BLSTM_CRF(nn.Module):
         self.lstm = nn.LSTM(input_size, opt['hidden_dim'], opt['num_layers'], batch_first=True, \
                 dropout=opt['dropout'], bidirectional=True)
         self.linear = nn.Linear(opt['hidden_dim']*2, opt['num_class'])
-        if opt['crf']:
-            # consider make a NN layer?
-            self.transition_matrix = torch.rand(opt['num_class'], opt['num_class'])
         
         # keep parameters
         self.crf = opt['crf']
