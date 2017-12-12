@@ -50,7 +50,7 @@ vocab_file = args.model_dir + '/vocab.pkl'
 vocab = Vocab(vocab_file, load=True)
 assert opt['vocab_size'] == vocab.size, "Vocab size must match that in the saved model."
 
-char_vocab_file = args.model_dir + '/vocab_char.pkl'
+char_vocab_file = args.model_dir + '/char_vocab.pkl'
 char_vocab = Vocab(char_vocab_file, load=True)
 assert opt['char_vocab_size'] == char_vocab.size, "Char vocab size must match that in the saved model."
 
