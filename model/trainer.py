@@ -35,7 +35,8 @@ class Trainer(object):
             self.crit = crf.CRFLoss(opt['num_class'], True)
         else:
             self.crit = loss.SequenceLoss(opt['num_class'])
-        self.parameters = [p for p in self.model.parameters() if p.requires_grad]
+        self.parameters = [p for m in (self.model, self.crit) for p in m.parameters()\
+                if p.requires_grad]
         if opt['cuda']:
             self.model.cuda()
             self.crit.cuda()
@@ -88,6 +89,7 @@ class Trainer(object):
     def save(self, filename, epoch):
         params = {
                 'model': self.model.state_dict(),
+                'crit': self.crit.state_dict(),
                 'config': self.opt,
                 'epoch': epoch
                 }
@@ -104,6 +106,8 @@ class Trainer(object):
             print("Cannot load model from {}".format(filename))
             exit()
         self.model.load_state_dict(checkpoint['model'])
+        if 'crit' in checkpoint:
+            self.crit.load_state_dict(checkpoint['crit'])
         self.opt = checkpoint['config']
 
 
