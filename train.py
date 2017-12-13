@@ -101,7 +101,7 @@ helper.ensure_dir(model_save_dir, verbose=True)
 # save config
 helper.save_config(opt, model_save_dir + '/config.json', verbose=True)
 vocab.save(model_save_dir + '/vocab.pkl')
-char_vocab.save(model_save_dir + '/char_vocab.pkl')
+char_vocab.save(model_save_dir + '/vocab_char.pkl')
 file_logger = helper.FileLogger(model_save_dir + '/' + opt['log'], header="# epoch\ttrain_loss\tdev_loss\tdev_f1\tbest_dev_f1")
 
 # print model info

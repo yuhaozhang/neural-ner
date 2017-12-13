@@ -19,6 +19,7 @@ def parse_args():
     parser.add_argument('--wv_dim', type=int, default=300, help='GloVe vector dimension.')
     parser.add_argument('--min_freq', type=int, default=0, help='If > 0, use min_freq as the cutoff.')
     parser.add_argument('--lower', action='store_true', help='If specified, lowercase all words.')
+    parser.add_argument('--char_lower', action='store_true', help='If specified, lowercase all characters.')
     parser.add_argument('--all', action='store_true', help='If specified, create vector for all words in train and dev.')
     
     args = parser.parse_args()
@@ -48,9 +49,9 @@ def main():
     if args.lower:
         train_tokens, dev_tokens, test_tokens = [[t.lower() for t in tokens] for tokens in\
                 (train_tokens, dev_tokens, test_tokens)]
-        if train_chars:
-            train_chars, dev_chars, test_chars = [[c.lower() for c in chars] for chars in\
-                (train_chars, dev_chars, test_chars)]
+    if args.char_lower and train_chars:
+        train_chars, dev_chars, test_chars = [[c.lower() for c in chars] for chars in\
+            (train_chars, dev_chars, test_chars)]
 
     # load glove
     print("loading glove...")
