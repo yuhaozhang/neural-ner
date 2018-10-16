@@ -35,8 +35,7 @@ class Trainer(object):
             self.crit = crf.CRFLoss(opt['num_class'], True)
         else:
             self.crit = loss.SequenceLoss(opt['num_class'])
-        self.parameters = [p for m in (self.model, self.crit) for p in m.parameters()\
-                if p.requires_grad]
+        self.parameters = [p for m in (self.model, self.crit) for p in m.parameters() if p.requires_grad]
         if opt['cuda']:
             self.model.cuda()
             self.crit.cuda()
@@ -54,9 +53,9 @@ class Trainer(object):
             loss = self.crit(logits_flat, labels.view(-1))
 
         loss.backward()
-        torch.nn.utils.clip_grad_norm(self.model.parameters(), self.opt['max_grad_norm'])
+        torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.opt['max_grad_norm'])
         self.optimizer.step()
-        loss_val = loss.data[0]
+        loss_val = loss.data.item()
         return loss_val
 
     def predict(self, batch, unsort=True):
@@ -81,7 +80,7 @@ class Trainer(object):
             predictions = [p[:l] for l,p in zip(lens, predictions)] # remove paddings
         if unsort:
             _, predictions = [list(t) for t in zip(*sorted(zip(orig_idx, predictions)))]
-        return predictions, loss.data[0]
+        return predictions, loss.data.item()
 
     def update_lr(self, new_lr):
         torch_utils.change_lr(self.optimizer, new_lr)

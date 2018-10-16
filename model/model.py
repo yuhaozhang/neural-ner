@@ -42,12 +42,12 @@ class BLSTM_CRF(nn.Module):
             self.emb.weight.data[1:,:].uniform_(-1.0,1.0)
         self.linear.bias.data.fill_(0.0)
         # use xavier to initialize linear layer
-        init.xavier_uniform(self.linear.weight, gain=1)
+        init.xavier_uniform_(self.linear.weight, gain=1)
 
     def forward(self, inputs):
         words, masks, chars = inputs
-        seq_lens = list(masks.data.eq(constant.PAD_ID).long().sum(1).squeeze())
-        batch_size = words.size()[0]
+        seq_lens = list(masks.data.eq(0).long().sum(1))
+        batch_size = words.size(0)
         rnn_inputs = self.emb(words)
         
         # get character hidden
