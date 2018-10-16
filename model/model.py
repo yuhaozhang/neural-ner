@@ -48,18 +48,19 @@ class BLSTM_CRF(nn.Module):
         words, masks, chars = inputs
         seq_lens = list(masks.data.eq(constant.PAD_ID).long().sum(1).squeeze())
         batch_size = words.size()[0]
-        rnn_inputs = self.drop(self.emb(words))
+        rnn_inputs = self.emb(words)
         
         # get character hidden
         char_inputs = self.char_layer(chars)
         rnn_inputs = torch.cat([rnn_inputs, char_inputs], dim=2)
+        rnn_inputs = self.drop(rnn_inputs)
 
         h0, c0 = zero_state(batch_size, self.opt['hidden_dim'], self.opt['num_layers'], True, self.use_cuda)
         # pack sequence
         rnn_inputs = nn.utils.rnn.pack_padded_sequence(rnn_inputs, seq_lens, batch_first=True)
         rnn_outputs, (ht, ct) = self.lstm(rnn_inputs, (h0, c0))
         rnn_outputs, output_lens = nn.utils.rnn.pad_packed_sequence(rnn_outputs, batch_first=True)
-        #rnn_outputs = self.drop(rnn_outputs)
+        rnn_outputs = self.drop(rnn_outputs)
 
         # ht: [num_layers * num_dir, B, H]
         # outputs: [B, T, H * num_dir]

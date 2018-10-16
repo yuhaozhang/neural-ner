@@ -26,6 +26,7 @@ parser.add_argument('--emb_dim', type=int, default=300, help='Word embedding dim
 parser.add_argument('--hidden_dim', type=int, default=100, help='RNN hidden state size.')
 parser.add_argument('--num_layers', type=int, default=2, help='Num of RNN layers.')
 parser.add_argument('--dropout', type=float, default=0.5, help='Input and RNN dropout rate.')
+parser.add_argument('--word_dropout', type=float, default=0.0, help='Word dropout rate.')
 parser.add_argument('--topn', type=int, default=1e10, help='Only finetune top N embeddings.')
 parser.add_argument('--lower', dest='lower', action='store_true', help='Lowercase all words.')
 parser.add_argument('--no-lower', dest='lower', action='store_false')

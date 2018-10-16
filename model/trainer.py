@@ -40,7 +40,7 @@ class Trainer(object):
         if opt['cuda']:
             self.model.cuda()
             self.crit.cuda()
-        self.optimizer = torch_utils.get_optimizer(opt['optim'], self.parameters, opt['lr'])
+        self.optimizer = torch_utils.get_optimizer(opt['optim'], self.parameters, opt['lr'], opt.get('momentum', 0))
 
     def update(self, batch):
         inputs, labels, masks, orig_idx = unpack_batch(batch, self.opt['cuda'])

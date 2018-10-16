@@ -80,10 +80,14 @@ class DataLoader(object):
         # sort all fields by lens for easy RNN operations
         lens = [len(x) for x in batch[0]]
         batch, orig_idx = sort_all(batch, lens)
-        #print(batch)
+
+        if not self.eval:
+            words = [word_dropout(sent, self.opt.get('word_dropout', 0)) for sent in batch[0]]
+        else:
+            words = batch[0]
 
         # convert to tensors
-        words = get_long_tensor(batch[0], batch_size)
+        words = get_long_tensor(words, batch_size)
         masks = torch.eq(words, constant.PAD_ID)
         chars = get_long_tensor_3d(batch[1], batch_size)
         types = get_long_tensor(batch[2], batch_size, pad_id=constant.PAD_TYPE_ID)
@@ -130,4 +134,9 @@ def sort_all(batch, lens):
     unsorted_all = [lens] + [range(len(lens))] + list(batch)
     sorted_all = [list(t) for t in zip(*sorted(zip(*unsorted_all), reverse=True))]
     return sorted_all[2:], sorted_all[1]
+
+def word_dropout(tokens, dropout):
+    """ Randomly dropout tokens (IDs) and replace them with <UNK> tokens. """
+    return [constant.UNK_ID if x != constant.UNK_ID and np.random.random() < dropout \
+            else x for x in tokens]
 

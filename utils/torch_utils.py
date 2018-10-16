@@ -90,9 +90,9 @@ class MyAdagrad(Optimizer):
         return loss
 
 ### torch specific functions
-def get_optimizer(name, parameters, lr):
+def get_optimizer(name, parameters, lr, momentum=0):
     if name == 'sgd':
-        return torch.optim.SGD(parameters, lr=lr)
+        return torch.optim.SGD(parameters, lr=lr, momentum=momentum)
     elif name in ['adagrad', 'myadagrad']:
         # use my own adagrad to allow for init accumulator value
         return MyAdagrad(parameters, lr=lr, init_accu_value=0.1)
