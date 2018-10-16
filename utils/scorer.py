@@ -9,7 +9,7 @@ from utils import constant
 
 EMPTY_TAG = constant.DEFAULT_TYPE
 
-def score_by_token(gold_tags, predicted_tags):
+def score_by_token(gold_tags, predicted_tags, verbose=True):
     """
     Score predicted sequences based on gold sequences on the token-level.
     """
@@ -40,10 +40,12 @@ def score_by_token(gold_tags, predicted_tags):
     f_micro = 0.0
     if prec_micro + rec_micro > 0:
         f_micro = 2.0 * prec_micro * rec_micro / (prec_micro + rec_micro)
-    print("\t%.3f\t%.3f\t%.3f" % (prec_micro*100, rec_micro*100, f_micro*100))
+    if verbose:
+        print("P\tR\tF1")
+        print("{:.2f}\t{:.2f}\t{:.2f}".format(prec_micro*100, rec_micro*100, f_micro*100))
     return prec_micro, rec_micro, f_micro
 
-def score_by_chunk(gold_tags, predicted_tags, scheme='iob'):
+def score_by_chunk(gold_tags, predicted_tags, scheme='iob', verbose=True):
     assert(len(gold_tags) == len(predicted_tags))
     if scheme == 'iobes':
         func_get_chunks = get_chunks_from_IOBES
@@ -72,7 +74,9 @@ def score_by_chunk(gold_tags, predicted_tags, scheme='iob'):
     f_micro = 0.0
     if prec_micro + rec_micro > 0:
         f_micro = 2.0 * prec_micro * rec_micro / (prec_micro + rec_micro)
-    print("\t%.3f\t%.3f\t%.3f" % (prec_micro*100, rec_micro*100, f_micro*100))
+    if verbose:
+        print("P\tR\tF1")
+        print("{:.2f}\t{:.2f}\t{:.2f}".format(prec_micro*100, rec_micro*100, f_micro*100))
     return prec_micro, rec_micro, f_micro
 
 def get_chunks_from_IOB(tag_sequences):

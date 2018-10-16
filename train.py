@@ -141,13 +141,13 @@ for epoch in range(1, opt['num_epoch']+1):
         predictions += preds
         dev_loss += loss
     predictions = [[id2label[p] for p in ps] for ps in predictions]
-    dev_p, dev_r, dev_f1 = scorer.score_by_chunk(dev_batch.gold(), predictions, scheme=opt['scheme'])
+    _, _, dev_f1 = scorer.score_by_chunk(dev_batch.gold(), predictions, scheme=opt['scheme'])
     
     train_loss = train_loss / train_batch.num_examples * opt['batch_size'] # avg loss per batch
     dev_loss = dev_loss / dev_batch.num_examples * opt['batch_size']
-    print("epoch {}: train_loss = {:.6f}, dev_loss = {:.6f}, dev_f1 = {:.4f}".format(epoch,\
-            train_loss, dev_loss, dev_f1))
-    file_logger.log("{}\t{:.6f}\t{:.6f}\t{:.4f}\t{:.4f}".format(epoch, train_loss, dev_loss, dev_f1, \
+    print("epoch {}: train_loss = {:.6f}, dev_loss = {:.6f}, dev_f1 = {:.2f}".format(epoch,\
+            train_loss, dev_loss, dev_f1*100))
+    file_logger.log("{}\t{:.6f}\t{:.6f}\t{:.4f}\t{:.2f}".format(epoch, train_loss, dev_loss, dev_f1*100, \
             max([dev_f1] + dev_f1_history)))
 
     # save
