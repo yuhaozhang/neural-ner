@@ -58,7 +58,7 @@ class CharCNNLayer(nn.Module):
         for k in range(self.opt['char_fmin'], self.opt['char_fmax']+1):
             insize, outsize = self.opt['char_emb_dim'], self.opt['char_fsize']
             layer = nn.Sequential(
-                        nn.Conv1d(insize, outsize, k),
+                        nn.Conv1d(insize, outsize, k, padding=1),
                         nn.ReLU()
                     )
             conv_layers += [layer]
@@ -93,7 +93,7 @@ class CharCNNLayer(nn.Module):
 def lstm_zero_state(batch_size, hidden_dim, num_layers, bidirectional=True, use_cuda=True):
     total_layers = num_layers * 2 if bidirectional else num_layers
     state_shape = (total_layers, batch_size, hidden_dim)
-    h0 = c0 = Variable(torch.zeros(*state_shape), requires_grad=False)
+    h0 = c0 = torch.zeros(*state_shape, requires_grad=False)
     if use_cuda:
         return h0.cuda(), c0.cuda()
     else:

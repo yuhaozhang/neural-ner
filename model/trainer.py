@@ -7,7 +7,6 @@ import torch
 from torch import nn
 import torch.nn.init as init
 import torch.nn.functional as F
-from torch.autograd import Variable
 
 from model import model, loss, crf
 from data import loader
@@ -16,11 +15,11 @@ from utils import constant, torch_utils
 def unpack_batch(batch, cuda):
     fsize = loader.INPUT_SIZE
     if cuda:
-        inputs = [Variable(b.cuda()) if b is not None else None for b in batch[:fsize]]
-        labels = Variable(batch[fsize].cuda())
+        inputs = [b.cuda() if b is not None else None for b in batch[:fsize]]
+        labels = batch[fsize].cuda()
     else:
-        inputs = [Variable(b) if b is not None else None for b in batch[:fsize]]
-        labels = Variable(batch[fsize])
+        inputs = [b if b is not None else None for b in batch[:fsize]]
+        labels = batch[fsize]
     masks = inputs[1]
     orig_idx = batch[-1]
     return inputs, labels, masks, orig_idx
