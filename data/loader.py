@@ -56,6 +56,15 @@ class DataLoader(object):
             processed += [[tokens, chars, types]]
         return processed
 
+    def reshuffle(self, batch_size):
+        data = [y for x in self.data for y in x]
+        indices = list(range(len(data)))
+        random.shuffle(indices)
+        data = [data[i] for i in indices]
+        self.raw_data = [self.raw_data[i] for i in indices]
+        self.labels = [[self.id2label[lid] for lid in d[-1]] for d in data]
+        self.data = [data[i:i+batch_size] for i in range(0, len(data), batch_size)] 
+
     def gold(self):
         return self.labels
 

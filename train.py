@@ -166,6 +166,7 @@ for epoch in range(1, opt['num_epoch']+1):
         trainer.update_lr(current_lr)
 
     dev_f1_history += [dev_f1]
+    train_batch.reshuffle(opt['batch_size'])
     print("")
 
 print("Training ended with {} epochs.".format(epoch))
