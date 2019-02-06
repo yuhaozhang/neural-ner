@@ -44,8 +44,10 @@ parser.add_argument('--char_fsize', type=int, default=50, help='CNN num of filte
 parser.add_argument('--char_cnn_dim', type=int, default=50, help='Char CNN layer output dim.')
 
 parser.add_argument('--lr', type=float, default=1.0, help='Applies to SGD and Adagrad.')
+parser.add_argument('--momentum', type=float, default=0, help='SGD momentum.')
 parser.add_argument('--lr_decay', type=float, default=0.9)
 parser.add_argument('--decay_epoch', type=int, default=30, help="Delay lr after this epoch.")
+parser.add_argument('--always_decay', action='store_true', help="Decay lr after every epoch linearly. See Ma et al. paper.")
 parser.add_argument('--optim', type=str, default='sgd', help='sgd, adagrad, adam or adamax.')
 parser.add_argument('--num_epoch', type=int, default=100)
 parser.add_argument('--batch_size', type=int, default=25)
@@ -148,7 +150,7 @@ for epoch in range(1, opt['num_epoch']+1):
     print("epoch {}: train_loss = {:.6f}, dev_loss = {:.6f}, dev_f1 = {:.2f}".format(epoch,\
             train_loss, dev_loss, dev_f1*100))
     file_logger.log("{}\t{:.6f}\t{:.6f}\t{:.4f}\t{:.2f}".format(epoch, train_loss, dev_loss, dev_f1*100, \
-            max([dev_f1] + dev_f1_history)))
+            max([dev_f1] + dev_f1_history)*100))
 
     # save
     model_file = model_save_dir + '/checkpoint_epoch_{}.pt'.format(epoch)
@@ -160,10 +162,14 @@ for epoch in range(1, opt['num_epoch']+1):
         os.remove(model_file)
     
     # lr schedule
-    if len(dev_f1_history) > opt['decay_epoch'] and dev_f1 <= dev_f1_history[-1] and \
-            opt['optim'] in ['sgd', 'adagrad']:
-        current_lr *= opt['lr_decay']
+    if opt.get('always_decay', False):
+        current_lr = opt['lr'] / (1 + epoch * opt['lr_decay'])
         trainer.update_lr(current_lr)
+    else:
+        if len(dev_f1_history) > opt['decay_epoch'] and dev_f1 <= dev_f1_history[-1] and \
+                opt['optim'] in ['sgd', 'adagrad']:
+            current_lr *= opt['lr_decay']
+            trainer.update_lr(current_lr)
 
     dev_f1_history += [dev_f1]
     train_batch.reshuffle(opt['batch_size'])

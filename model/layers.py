@@ -2,6 +2,7 @@
 Neural layers.
 """
 
+import math
 import torch
 from torch import nn
 import torch.nn.init as init
@@ -45,7 +46,8 @@ class CharCNNLayer(nn.Module):
         self.use_cuda = opt['cuda']
         self.emb = nn.Embedding(opt['char_vocab_size'], opt['char_emb_dim'], padding_idx=0)
         self.drop = nn.Dropout(opt['dropout'])
-        self.emb.weight.data[1:,:].uniform_(-1.0,1.0)
+        r = math.sqrt(3.0 / opt['char_emb_dim'])
+        self.emb.weight.data[1:,:].uniform_(-r,r)
         self.init_conv_layers()
         if opt['char_cnn_dim'] > 0:
             self.linear = nn.Linear(self.cnn_output_dim, opt['char_cnn_dim'])
