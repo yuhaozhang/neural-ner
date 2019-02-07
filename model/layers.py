@@ -18,7 +18,8 @@ class CharRNNLayer(nn.Module):
         self.emb = nn.Embedding(opt['char_vocab_size'], opt['char_emb_dim'], padding_idx=0)
         self.drop = nn.Dropout(opt['dropout'])
         self.rnn = nn.LSTM(opt['char_emb_dim'], opt['char_hidden_dim'], 1, batch_first=True, dropout=opt['dropout'], bidirectional=True)
-        self.emb.weight.data[1:,:].uniform_(-1.0,1.0)
+        r = math.sqrt(3.0 / opt['char_emb_dim'])
+        self.emb.weight.data[1:,:].uniform_(-r,r)
         self.out_dim = opt['char_hidden_dim']*2
 
     def forward(self, chars):
@@ -76,10 +77,10 @@ class CharCNNLayer(nn.Module):
         b, l, lc = chars.size()
         chars_flat = chars.view(-1, lc)
         chars_emb = self.drop(self.emb(chars_flat))
-        d = chars_emb.size()[-1]
+        d = chars_emb.size(-1)
         inputs = chars_emb
         inputs = inputs.transpose(1,2) # b x d x lc
-        b_flat = inputs.size()[0] # new batch_size after flat
+        b_flat = inputs.size(0) # new batch_size after flat
         # do cnn
         cnn_outputs = []
         for layer in self.conv_layers:

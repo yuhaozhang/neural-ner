@@ -59,7 +59,12 @@ print("Loading data from {} with batch size {}...".format(data_file, opt['batch_
 batch = DataLoader(data_file, opt['batch_size'], opt, vocab, char_vocab, evaluation=True)
 
 helper.print_config(opt)
-label2id = constant.TYPE_TO_ID_IOB
+if opt['scheme'] == 'iob':
+    label2id = constant.TYPE_TO_ID_IOB
+elif opt['scheme'] == 'iobes':
+    label2id = constant.TYPE_TO_ID_IOBES
+else:
+    raise Exception("Tagging scheme not found: " + opt['scheme'])
 id2label = dict([(v,k) for k,v in label2id.items()])
 
 predictions = []

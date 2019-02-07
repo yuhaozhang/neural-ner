@@ -75,7 +75,12 @@ elif args.cuda:
 # make opt
 opt = vars(args)
 
-label2id = constant.TYPE_TO_ID_IOB
+if opt['scheme'] == 'iob':
+    label2id = constant.TYPE_TO_ID_IOB
+elif opt['scheme'] == 'iobes':
+    label2id = constant.TYPE_TO_ID_IOBES
+else:
+    raise Exception("Tagging scheme not found: " + opt['scheme'])
 opt['num_class'] = len(label2id)
 
 # load vocab
