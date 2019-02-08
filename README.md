@@ -1,7 +1,13 @@
 Neural NER models
 =====
 
-This repo implements a LSTM-CRF or CNN-LSTM-CRF model with combined character-level and word-level representations for named entity recognition (NER). 
+This repo contains PyTorch implementation of an LSTM-CRF and a CNN-LSTM-CRF model with combined character-level and word-level representations for named entity recognition (NER). 
+
+## Requirements
+
+- Python 3
+- PyTorch (>= v1.0.0)
+- tqdm
 
 ## Training
 
@@ -37,6 +43,4 @@ Run evaluation using a trained model on the test split of the dataset with:
 python eval.py saved_models/00 --dataset testb
 ```
 where `testb` is the name of the test split.
-
-
 
