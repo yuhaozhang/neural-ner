@@ -1,16 +1,16 @@
 """
-Load the column NER data, and process into json.
+Load the column NER data, and process into jsonl format.
 """
 
 import os
-import json
 import argparse
-from pprint import pprint
+
+from utils import jsonl
 
 NUM_FIELD = 2
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Convert column data into json.")
+    parser = argparse.ArgumentParser(description="Convert column data into json-line format.")
     parser.add_argument('data_dir', help='Original data directory')
     parser.add_argument('target_dir', help='Target directory to write the converted data.')
     parser.add_argument('--scheme', type=str, dest='scheme', default='iob', help='Tagging scheme to use.')
@@ -22,7 +22,11 @@ def main():
 
     files = ['train', 'testa', 'testb']
     pattern = 'eng.{}.' + args.scheme
-    target_pattern = '{}.json'
+    target_pattern = '{}.jsonl'
+
+    if not os.path.exists(args.target_dir):
+        print("Creating directory {} ...".format(args.target_dir))
+        os.makedirs(args.target_dir)
 
     for f in files:
         filename = args.data_dir + '/' + pattern.format(f)
@@ -39,8 +43,8 @@ def main():
         # save to file
         out = args.target_dir + '/' + target_pattern.format(f)
         with open(out, 'w') as outfile:
-            json.dump(json_data, outfile)
-        print("Write to json file {}".format(out))
+            jsonl.dump(json_data, outfile)
+        print("Write to jsonl file {}".format(out))
         print("{} unique chars found.".format(len(char_vocab)))
 
 def get_chars(words):

@@ -1,22 +1,21 @@
 """
 Prepare vocabulary and initial word vectors.
 """
-import json
 import pickle
 import argparse
 import numpy as np
 from collections import Counter
 
-from utils import vocab, constant, helper
+from utils import vocab, constant, helper, jsonl
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Prepare vocab for NER.')
-    parser.add_argument('data_dir', help='Directory of the json data.')
+    parser.add_argument('data_dir', help='Directory of the jsonl data.')
     parser.add_argument('vocab_dir', help='Output vocab directory.')
     parser.add_argument('--random', action='store_true', help='Randomly initialize vectors.')
     parser.add_argument('--glove_dir', default='dataset/glove', help='GloVe directory.')
-    parser.add_argument('--wv_file', default='glove.840B.300d.txt', help='GloVe vector file.')
-    parser.add_argument('--wv_dim', type=int, default=300, help='GloVe vector dimension.')
+    parser.add_argument('--wv_file', default='glove.6B.100d.txt', help='GloVe vector file.')
+    parser.add_argument('--wv_dim', type=int, default=100, help='GloVe vector dimension.')
     parser.add_argument('--min_freq', type=int, default=0, help='If > 0, use min_freq as the cutoff.')
     parser.add_argument('--lower', action='store_true', help='If specified, lowercase all words.')
     parser.add_argument('--char_lower', action='store_true', help='If specified, lowercase all characters.')
@@ -29,9 +28,9 @@ def main():
     args = parse_args()
     
     # input files
-    train_file = args.data_dir + '/train.json'
-    dev_file = args.data_dir + '/testa.json'
-    test_file = args.data_dir + '/testb.json'
+    train_file = args.data_dir + '/train.jsonl'
+    dev_file = args.data_dir + '/testa.jsonl'
+    test_file = args.data_dir + '/testb.jsonl'
     wv_file = args.glove_dir + '/' + args.wv_file
     wv_dim = args.wv_dim
 
@@ -104,7 +103,7 @@ def random_embedding(vocab, wv_dim):
 
 def load_tokens(filename):
     with open(filename) as infile:
-        data = json.load(infile)
+        data = jsonl.load(infile)
         tokens = []
         chars = []
         for d in data:

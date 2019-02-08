@@ -20,8 +20,8 @@ from utils import scorer, constant, helper
 from utils.vocab import Vocab
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_dir', type=str, default='dataset/conll_iob')
-parser.add_argument('--vocab_dir', type=str, default='dataset/vocab_iob')
+parser.add_argument('--data_dir', type=str, default='dataset/conll_iobes')
+parser.add_argument('--vocab_dir', type=str, default='dataset/vocab')
 parser.add_argument('--emb_dim', type=int, default=300, help='Word embedding dimension.')
 parser.add_argument('--hidden_dim', type=int, default=100, help='RNN hidden state size.')
 parser.add_argument('--num_layers', type=int, default=2, help='Num of RNN layers.')
@@ -93,8 +93,8 @@ opt['char_vocab_size'] = char_vocab.size
 
 # load data
 print("Loading data from {} with batch size {}...".format(opt['data_dir'], opt['batch_size']))
-train_batch = DataLoader(opt['data_dir'] + '/train.json', opt['batch_size'], opt, vocab, char_vocab, evaluation=False)
-dev_batch = DataLoader(opt['data_dir'] + '/testa.json', opt['batch_size'], opt, vocab, char_vocab, evaluation=True)
+train_batch = DataLoader(opt['data_dir'] + '/train.jsonl', opt['batch_size'], opt, vocab, char_vocab, evaluation=False)
+dev_batch = DataLoader(opt['data_dir'] + '/testa.jsonl', opt['batch_size'], opt, vocab, char_vocab, evaluation=True)
 
 model_id = opt['id'] if len(opt['id']) > 1 else '0' + opt['id']
 model_save_dir = opt['save_dir'] + '/' + model_id

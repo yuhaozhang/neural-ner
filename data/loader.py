@@ -2,18 +2,17 @@
 Data loader for NER json data.
 """
 
-import json
 import random
 import torch
 import numpy as np
 
-from utils import constant, helper, vocab
+from utils import constant, helper, vocab, jsonl
 
 INPUT_SIZE = 3
 
 class DataLoader(object):
     """
-    Load data from json files, preprocess and prepare batches.
+    Load data from jsonl files, preprocess and prepare batches.
     """
     def __init__(self, filename, batch_size, opt, vocab, char_vocab, evaluation=False):
         self.batch_size = batch_size
@@ -25,7 +24,7 @@ class DataLoader(object):
                 else constant.TYPE_TO_ID_IOBES
 
         with open(filename) as infile:
-            data = json.load(infile)
+            data = jsonl.load(infile)
         self.raw_data = data
         data = self.preprocess(data, opt)
         # shuffle for training

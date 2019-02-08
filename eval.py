@@ -4,7 +4,6 @@ Run evaluation with saved models.
 
 import os
 import random
-import json
 import argparse
 import pickle
 from tqdm import tqdm
@@ -55,7 +54,7 @@ char_vocab = Vocab(char_vocab_file, load=True)
 assert opt['char_vocab_size'] == char_vocab.size, "Char vocab size must match that in the saved model."
 
 # load data
-data_file = opt['data_dir'] + '/{}.json'.format(args.dataset)
+data_file = opt['data_dir'] + '/{}.jsonl'.format(args.dataset)
 print("Loading data from {} with batch size {}...".format(data_file, opt['batch_size']))
 batch = DataLoader(data_file, opt['batch_size'], opt, vocab, char_vocab, evaluation=True)
 
