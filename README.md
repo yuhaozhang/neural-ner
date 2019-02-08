@@ -1,7 +1,7 @@
 Neural NER models
 =====
 
-This repo contains PyTorch implementation of an LSTM-CRF and a CNN-LSTM-CRF model with combined character-level and word-level representations for named entity recognition (NER). 
+This repo contains PyTorch implementation of an LSTM-CRF ([Lample et al.](https://arxiv.org/abs/1603.01360)) and a CNN-LSTM-CRF ([Ma et al.](https://arxiv.org/abs/1603.01354)) model with combined character-level and word-level representations for named entity recognition (NER). 
 
 ## Requirements
 
@@ -44,3 +44,12 @@ python eval.py saved_models/00 --dataset testb
 ```
 where `testb` is the name of the test split.
 
+
+## Performance
+
+Performance of the models is evaluated with entity-level F1 scores on the CoNLL03 English test set (`testb`). For each model and each tagging scheme (IOB vs IOBES), median and max scores across 5 random seeds are reported in the format of `median (max)`. Note that the hyperparameters used to produce these scores (see training scripts) are different from those reported in the original papers.
+
+| Model  | IOBES | IOB |
+| --- | --- | --- |
+| LSTM-CRF ([Lample et al.](https://arxiv.org/abs/1603.01360))  | 91.05 (91.30) | 90.33	(90.50) |
+| CNN-LSTM-CRF ([Ma et al.](https://arxiv.org/abs/1603.01354)) | 90.68 (90.84) | 90.06	(90.34) |
